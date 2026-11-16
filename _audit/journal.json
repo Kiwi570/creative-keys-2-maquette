@@ -83,7 +83,7 @@
    "allersRetours": 0,
    "modules": [],
    "audit": {
-    "niveau": "standard + passe des formats (complet, mesures et écran)",
+    "niveau": "complet (version finale) : 0 échec",
     "echecsPremierPassage": 53,
     "relances": 9,
     "corrections": [
@@ -103,7 +103,7 @@
     "mosaïque Print de l’accueil (accueil trop long : 17 écrans)"
    ],
    "grilleDispenses": {},
-   "notes": "favoris.json absent du dépôt de la bibliothèque : liste locale temporaire des 7 favorites citées dans la skill, pour la planche. Socle : la galerie data-fx=\"galerie\" garde anticipatePin, contraire à la règle de la skill (sauts à la sortie de l’épinglage)."
+   "notes": "favoris.json absent du dépôt de la bibliothèque : liste locale temporaire des 7 favorites citées dans la skill, pour la planche. Socle : la galerie data-fx=\"galerie\" garde anticipatePin, contraire à la règle de la skill (sauts à la sortie de l’épinglage). Projet renommé creative-keys-2-maquette (le nom creative-keys-maquette était déjà pris chez l’utilisateur)."
   }
  ]
 }

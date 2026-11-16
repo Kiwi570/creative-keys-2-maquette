@@ -23,7 +23,6 @@ const pk = [
  ['pk-protein','emballages-m-emballent-17.jpg',3,'sante','Sachets de protéine végane et de maca bio en poudre'],
  ['pk-maisoncafe','emballages-m-emballent-18.png',3,'boissons','Paquet de café Ma Tradition de Maison du Café, offre trois plus un'],
  ['pk-ourson','emballages-m-emballent-19.png',3,'sucre','Pots de pâte à tartiner Ourson et Mi-Cho-Ko'],
- ['pk-calendrier','emballages-m-emballent-20.png',3,'sucre','Deux calendriers de l’Avent illustrés'],
  ['pk-dayfruits','emballages-m-emballent-21.jpg',4,'sucre','Gamme de six sachets de fruits croquants Day Fruits : pomme, framboise, ananas, fraise, banane, mangue'],
  ['pk-confitures','emballages-m-emballent-22.jpg',4,'sucre','Gamme de pots de confiture aux étiquettes noires et rouges, sur deux rangs'],
  ['pk-versailles','emballages-m-emballent-23.png',4,'sucre','Tablettes Chocolats de Versailles, étuis orange et noir', '2000:1211'],

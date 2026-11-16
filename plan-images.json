@@ -285,21 +285,6 @@
   "page": "packaging"
  },
  {
-  "source": "recu/site/emballages-m-emballent-20.png",
-  "nom": "pk-calendrier",
-  "role": "galerie",
-  "ratio": "3:2",
-  "largeurs": [
-   480,
-   800,
-   1200
-  ],
-  "alt": "Deux calendriers de l’Avent illustrés",
-  "beaute": 3,
-  "univers": "sucre",
-  "page": "packaging"
- },
- {
   "source": "recu/site/emballages-m-emballent-21.jpg",
   "nom": "pk-dayfruits",
   "role": "galerie",
