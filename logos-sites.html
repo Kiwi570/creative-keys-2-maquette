@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Logos et sites web : à vos marques, prêts, partez · Creative Keys</title>
+<meta name="description" content="Logos de marques, de commerces et d&#39;associations, et sites vitrines conçus par Creative Keys.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creative-keys-2-maquette.vercel.app/logos-sites">
+<style>:root{--fond:#EDECE8;--texte:#121212;--voile-fond:#121212;--ouverture-fond:#EDECE8;--menu-fond:#EDECE8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#EDECE8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Creative Keys">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Logos et sites web : à vos marques, prêts, partez · Creative Keys">
+<meta property="og:description" content="Logos de marques, de commerces et d&#39;associations, et sites vitrines conçus par Creative Keys.">
+<meta property="og:url" content="https://creative-keys-2-maquette.vercel.app/logos-sites">
+<meta property="og:image" content="https://creative-keys-2-maquette.vercel.app/assets/partage/logos-sites-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logo Maison Erté créé par Creative Keys">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Creative Keys","url":"https://creative-keys-2-maquette.vercel.app/","telephone":"+33675014560","email":"t.creativekeys@orange.fr","founder":{"@type":"Person","name":"Thierry Poincet","jobTitle":"Graphiste"},"areaServed":"Paris et périphérie","knowsAbout":["Packaging","Création de marque","Logo","PLV","Plaquettes et affiches","Sites web"],"sameAs":["https://www.instagram.com/pfscreationdesign/","https://twitter.com/PFS_DiamantS","https://graphiste.com/thierrycreativekeys"],"description":"Graphiste indépendant : packaging, création de marque, PLV, imprimés et sites web, 30 ans d'expérience."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Creative Keys</span><span data-voile-libelle>Logos &amp; sites</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-rayons"><div class="intro-etagere" style="--i:0"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:1"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-trou"></span><span class="intro-facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:2"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div></div>
+  <p class="ouverture-nom">Creative Keys</p>
+  <p class="ouverture-ligne">Packaging · Print · Logos · Web</p>
+  <img class="ouverture-objet" src="/assets/images/pk-chocolat60-detoure-480.webp" alt="" width="480" height="333" decoding="async" data-ouverture-objet>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites" aria-current="page">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/packaging" class="menu-lien" data-libelle="Packaging">Packaging</a></li><li style="--i:2"><a href="/print" class="menu-lien" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li style="--i:3"><a href="/logos-sites" class="menu-lien" data-libelle="Logos &amp; sites" aria-current="page">Logos &amp; sites</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33675014560">Appeler 06 75 01 45 60</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-depart bande-encre" id="debut">
+  <div class="conteneur ouv-depart-grille">
+    <div class="ouv-depart-texte">
+      <p class="surtitre" data-anime="gsap">Logos &amp; sites</p>
+      <h1 class="titre titre--page" data-anime="gsap">
+        <span class="ligne-masque"><span class="ouv-ligne">À vos marques…</span></span>
+        <span class="ligne-masque"><span class="ouv-ligne">prêts ?</span></span>
+        <span class="ligne-masque"><em class="mot ouv-ligne depart-partez">Partez !</em></span>
+      </h1>
+      <p class="masque-ecran-bas" data-anime="gsap">Des logos pour des biscuiteries, des instituts de beauté, des commerces et des associations, puis les sites qui les mettent en vitrine.</p>
+      <p class="ouv-actions" data-anime="gsap"><a href="/contact?projet=logo#devis" class="bouton bouton--clair" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un logo ou un site</a></p>
+      <p class="ouv-info" data-info-cle data-anime="gsap">14 logos · 8 sites web</p>
+    </div>
+    <div class="depart">
+      <div class="depart-feu" data-iris-centre="disque" data-effet="compte-a-rebours" aria-hidden="true">
+        <span class="depart-chiffre" data-chiffre="3">3</span>
+        <span class="depart-chiffre" data-chiffre="2">2</span>
+        <span class="depart-chiffre" data-chiffre="1">1</span>
+        <span class="depart-chiffre depart-go" data-chiffre="0">→</span>
+      </div>
+      <ul class="eventail" data-superpose aria-label="Sur la ligne de départ">
+        <li class="eventail-carte" style="--k:-2;--a:2"><figure class="media logo-media" style="--cadrage:49% 42%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-erte-800.webp" srcset="/assets/images/lg-erte-480.webp 480w, /assets/images/lg-erte-800.webp 800w" sizes="(max-width: 760px) 40vw, 16vw" alt="Logo Maison Erté, biscuitiers de père en fils depuis 1888" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="eventail-carte" style="--k:-1;--a:1"><figure class="media logo-media" style="--cadrage:50% 51%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-dayfruits-800.webp" srcset="/assets/images/lg-dayfruits-480.webp 480w, /assets/images/lg-dayfruits-800.webp 800w" sizes="(max-width: 760px) 40vw, 16vw" alt="Logo Day Fruits « C’est mon fruit croustillant »" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="eventail-carte" style="--k:0;--a:0"><figure class="media logo-media" style="--cadrage:45% 46%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-najat-800.webp" srcset="/assets/images/lg-najat-480.webp 480w, /assets/images/lg-najat-800.webp 800w" sizes="(max-width: 760px) 40vw, 16vw" alt="Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme" width="800" height="533" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure></li><li class="eventail-carte" style="--k:1;--a:1"><figure class="media logo-media" style="--cadrage:34% 40%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-pauline-800.webp" srcset="/assets/images/lg-pauline-480.webp 480w, /assets/images/lg-pauline-800.webp 800w" sizes="(max-width: 760px) 40vw, 16vw" alt="Logo La Vitrine de Pauline, colibri et écriture violette" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="eventail-carte" style="--k:2;--a:2"><figure class="media logo-media" style="--cadrage:48% 41%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-celina-800.webp" srcset="/assets/images/lg-celina-480.webp 480w, /assets/images/lg-celina-800.webp 800w" sizes="(max-width: 760px) 40vw, 16vw" alt="Identité Celina Paris : vase et coussin aux motifs berbères" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section class="logos-mur bande-blanche" id="logos">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <h2 class="titre" data-anime="lignes">Sur la ligne <em class="mot">de départ</em></h2>
+      <p data-anime>Quatorze logos, du monogramme doré au lettrage de transporteur.</p>
+    </div>
+    <div class="grille-real grille-real--logos" data-anime="cascade">
+      <article class="carte-real " id="r-erte" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:49% 42%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-erte-800.webp" srcset="/assets/images/lg-erte-480.webp 480w, /assets/images/lg-erte-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Maison Erté, biscuitiers de père en fils depuis 1888" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Erté</strong> <span>Biscuitiers depuis 1888</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="erte" data-grand="/assets/images/lg-erte-800.webp" data-alt="Logo Maison Erté, biscuitiers de père en fils depuis 1888" data-titre="Maison Erté · Biscuitiers depuis 1888" aria-label="Voir en grand : Maison Erté, Biscuitiers depuis 1888"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-dayfruits" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:50% 51%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-dayfruits-800.webp" srcset="/assets/images/lg-dayfruits-480.webp 480w, /assets/images/lg-dayfruits-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Day Fruits « C’est mon fruit croustillant »" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Day Fruits</strong> <span>Fruits croustillants</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="dayfruits" data-grand="/assets/images/lg-dayfruits-800.webp" data-alt="Logo Day Fruits « C’est mon fruit croustillant »" data-titre="Day Fruits · Fruits croustillants" aria-label="Voir en grand : Day Fruits, Fruits croustillants"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-najat" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:45% 46%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-najat-800.webp" srcset="/assets/images/lg-najat-480.webp 480w, /assets/images/lg-najat-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Najat Bary</strong> <span>Monogramme</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="najat" data-grand="/assets/images/lg-najat-800.webp" data-alt="Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme" data-titre="Najat Bary · Monogramme" aria-label="Voir en grand : Najat Bary, Monogramme"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-pauline" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:34% 40%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-pauline-800.webp" srcset="/assets/images/lg-pauline-480.webp 480w, /assets/images/lg-pauline-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo La Vitrine de Pauline, colibri et écriture violette" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>La Vitrine de Pauline</strong> <span>Boutique</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="pauline" data-grand="/assets/images/lg-pauline-800.webp" data-alt="Logo La Vitrine de Pauline, colibri et écriture violette" data-titre="La Vitrine de Pauline · Boutique" aria-label="Voir en grand : La Vitrine de Pauline, Boutique"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-togolais" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:50% 44%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-togolais-800.webp" srcset="/assets/images/lg-togolais-480.webp 480w, /assets/images/lg-togolais-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logos Biscuiterie Enougan Bio et Mini Biscuits Togolais" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Enougan Bio</strong> <span>Biscuiterie et gamme</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="togolais" data-grand="/assets/images/lg-togolais-800.webp" data-alt="Logos Biscuiterie Enougan Bio et Mini Biscuits Togolais" data-titre="Enougan Bio · Biscuiterie et gamme" aria-label="Voir en grand : Enougan Bio, Biscuiterie et gamme"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-agafay" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:53% 24%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-agafay-800.webp" srcset="/assets/images/lg-agafay-480.webp 480w, /assets/images/lg-agafay-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Le Royaume Agafay Camp sur un paysage de désert" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Le Royaume Agafay Camp</strong> <span>Camp dans le désert</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="agafay" data-grand="/assets/images/lg-agafay-800.webp" data-alt="Logo Le Royaume Agafay Camp sur un paysage de désert" data-titre="Le Royaume Agafay Camp · Camp dans le désert" aria-label="Voir en grand : Le Royaume Agafay Camp, Camp dans le désert"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-celina" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:48% 41%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-celina-800.webp" srcset="/assets/images/lg-celina-480.webp 480w, /assets/images/lg-celina-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Identité Celina Paris : vase et coussin aux motifs berbères" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Celina Paris</strong> <span>Identité</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="celina" data-grand="/assets/images/lg-celina-800.webp" data-alt="Identité Celina Paris : vase et coussin aux motifs berbères" data-titre="Celina Paris · Identité" aria-label="Voir en grand : Celina Paris, Identité"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-emma" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:47% 44%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-emma-800.webp" srcset="/assets/images/lg-emma-480.webp 480w, /assets/images/lg-emma-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Beauty Emma, prothésiste ongulaire, flacon de vernis et main" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Beauty Emma</strong> <span>Prothésiste ongulaire</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="emma" data-grand="/assets/images/lg-emma-800.webp" data-alt="Logo Beauty Emma, prothésiste ongulaire, flacon de vernis et main" data-titre="Beauty Emma · Prothésiste ongulaire" aria-label="Voir en grand : Beauty Emma, Prothésiste ongulaire"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-barbershop" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:51% 45%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-barbershop-800.webp" srcset="/assets/images/lg-barbershop-480.webp 480w, /assets/images/lg-barbershop-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Deux logos Barber Shop, coupes de cheveux et rasages" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Barber Shop</strong> <span>Coupes et rasages</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="barbershop" data-grand="/assets/images/lg-barbershop-800.webp" data-alt="Deux logos Barber Shop, coupes de cheveux et rasages" data-titre="Barber Shop · Coupes et rasages" aria-label="Voir en grand : Barber Shop, Coupes et rasages"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-babyboss" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:42% 46%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-babyboss-800.webp" srcset="/assets/images/lg-babyboss-480.webp 480w, /assets/images/lg-babyboss-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Déclinaisons du logo Baby Boss, « le boss c’est bébé »" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Baby Boss</strong> <span>Déclinaisons</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="babyboss" data-grand="/assets/images/lg-babyboss-800.webp" data-alt="Déclinaisons du logo Baby Boss, « le boss c’est bébé »" data-titre="Baby Boss · Déclinaisons" aria-label="Voir en grand : Baby Boss, Déclinaisons"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-serenity" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:47% 48%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-serenity-800.webp" srcset="/assets/images/lg-serenity-480.webp 480w, /assets/images/lg-serenity-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Deux versions du logo Sérénity Village, construction intergénération" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Sérénity Village</strong> <span>Habitat intergénération</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="serenity" data-grand="/assets/images/lg-serenity-800.webp" data-alt="Deux versions du logo Sérénity Village, construction intergénération" data-titre="Sérénity Village · Habitat intergénération" aria-label="Voir en grand : Sérénity Village, Habitat intergénération"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-vache" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:49% 43%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-vache-800.webp" srcset="/assets/images/lg-vache-480.webp 480w, /assets/images/lg-vache-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo La Vache aux pieds nus sur des pots de crème fraîche et de fromage frais" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>La Vache aux pieds nus</strong> <span>Logo et pots</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="vache" data-grand="/assets/images/lg-vache-800.webp" data-alt="Logo La Vache aux pieds nus sur des pots de crème fraîche et de fromage frais" data-titre="La Vache aux pieds nus · Logo et pots" aria-label="Voir en grand : La Vache aux pieds nus, Logo et pots"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-transeurope" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:52% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-transeurope-800.webp" srcset="/assets/images/lg-transeurope-480.webp 480w, /assets/images/lg-transeurope-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Trans Europe 45, lettrage rouge et gris" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Trans Europe 45</strong> <span>Lettrage</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="transeurope" data-grand="/assets/images/lg-transeurope-800.webp" data-alt="Logo Trans Europe 45, lettrage rouge et gris" data-titre="Trans Europe 45 · Lettrage" aria-label="Voir en grand : Trans Europe 45, Lettrage"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-action" data-univers="logos" data-survol="incline">
+  <figure class="media carte-real-media" style="--cadrage:48% 42%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-action-800.webp" srcset="/assets/images/lg-action-480.webp 480w, /assets/images/lg-action-800.webp 800w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Logo Action dans le monde, globe noir et jaune" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Action dans le monde</strong> <span>Association</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="action" data-grand="/assets/images/lg-action-800.webp" data-alt="Logo Action dans le monde, globe noir et jaune" data-titre="Action dans le monde · Association" aria-label="Voir en grand : Action dans le monde, Association"><span aria-hidden="true">+</span></button>
+</article>
+    </div>
+  </div>
+</section>
+<section class="vitrine ecran epingle" id="vitrine" data-galerie-propre>
+  <div class="conteneur gondole-tete">
+    <div><p class="surtitre" data-anime>Sites web</p>
+  <h2 class="titre " data-anime="lignes">Profitez-en pour faire <em class="mot">du lèche-vitrine</em></h2></div>
+    <div class="gondole-intro"><p class="masque-ecran-bas">Huit sites vitrines, pensés pour l&#39;ordinateur et le téléphone.</p></div>
+  </div>
+  <div class="piste gondole-piste" data-galerie data-effet="gondole" tabindex="0" role="region" aria-label="Galerie des sites web, défilement horizontal">
+    <article class="carte-real carte-gondole carte-web" id="r-site-erte" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:51% 47%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-erte-1200.webp" srcset="/assets/images/wb-erte-480.webp 480w, /assets/images/wb-erte-800.webp 800w, /assets/images/wb-erte-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site de la biscuiterie Erté sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Erté</strong> <span>Biscuiterie</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-erte" data-grand="/assets/images/wb-erte-1200.webp" data-alt="Site de la biscuiterie Erté sur ordinateur et téléphone" data-titre="Maison Erté · Biscuiterie" aria-label="Voir en grand : Maison Erté, Biscuiterie"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-longuet" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:51% 46%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-longuet-1200.webp" srcset="/assets/images/wb-longuet-480.webp 480w, /assets/images/wb-longuet-800.webp 800w, /assets/images/wb-longuet-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site Maison Longuet, crêpes et pâtisserie, sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Longuet</strong> <span>Pâtisserie</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-longuet" data-grand="/assets/images/wb-longuet-1200.webp" data-alt="Site Maison Longuet, crêpes et pâtisserie, sur ordinateur et téléphone" data-titre="Maison Longuet · Pâtisserie" aria-label="Voir en grand : Maison Longuet, Pâtisserie"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-estheticenter" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:63% 64%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-estheticenter-1200.webp" srcset="/assets/images/wb-estheticenter-480.webp 480w, /assets/images/wb-estheticenter-800.webp 800w, /assets/images/wb-estheticenter-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site Esthéticenter sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Esthéticenter</strong> <span>Institut de beauté</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-estheticenter" data-grand="/assets/images/wb-estheticenter-1200.webp" data-alt="Site Esthéticenter sur ordinateur et téléphone" data-titre="Esthéticenter · Institut de beauté" aria-label="Voir en grand : Esthéticenter, Institut de beauté"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-tahiti" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:51% 49%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-tahiti-1200.webp" srcset="/assets/images/wb-tahiti-480.webp 480w, /assets/images/wb-tahiti-800.webp 800w, /assets/images/wb-tahiti-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site Tahiti Wrap, covering automobile, sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Tahiti Wrap</strong> <span>Covering automobile</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-tahiti" data-grand="/assets/images/wb-tahiti-1200.webp" data-alt="Site Tahiti Wrap, covering automobile, sur ordinateur et téléphone" data-titre="Tahiti Wrap · Covering automobile" aria-label="Voir en grand : Tahiti Wrap, Covering automobile"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-mymyb" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:52% 52%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-mymyb-1200.webp" srcset="/assets/images/wb-mymyb-480.webp 480w, /assets/images/wb-mymyb-800.webp 800w, /assets/images/wb-mymyb-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site MyMy B, bijoux, sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>MyMy B</strong> <span>Bijoux</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-mymyb" data-grand="/assets/images/wb-mymyb-1200.webp" data-alt="Site MyMy B, bijoux, sur ordinateur et téléphone" data-titre="MyMy B · Bijoux" aria-label="Voir en grand : MyMy B, Bijoux"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-enougan" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:53% 48%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-enougan-1200.webp" srcset="/assets/images/wb-enougan-480.webp 480w, /assets/images/wb-enougan-800.webp 800w, /assets/images/wb-enougan-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site de la biscuiterie Enougan sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Enougan</strong> <span>Biscuiterie bio</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-enougan" data-grand="/assets/images/wb-enougan-1200.webp" data-alt="Site de la biscuiterie Enougan sur ordinateur et téléphone" data-titre="Enougan · Biscuiterie bio" aria-label="Voir en grand : Enougan, Biscuiterie bio"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-ladioss" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:41% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-ladioss-1200.webp" srcset="/assets/images/wb-ladioss-480.webp 480w, /assets/images/wb-ladioss-800.webp 800w, /assets/images/wb-ladioss-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site Ladioss sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Ladioss</strong> <span>Produits alimentaires</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-ladioss" data-grand="/assets/images/wb-ladioss-1200.webp" data-alt="Site Ladioss sur ordinateur et téléphone" data-titre="Ladioss · Produits alimentaires" aria-label="Voir en grand : Ladioss, Produits alimentaires"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole carte-web" id="r-site-gottoshare" data-univers="web">
+  <figure class="media carte-real-media" style="--cadrage:48% 43%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/wb-gottoshare-1200.webp" srcset="/assets/images/wb-gottoshare-480.webp 480w, /assets/images/wb-gottoshare-800.webp 800w, /assets/images/wb-gottoshare-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 40vw" alt="Site Got to Share sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Got to Share</strong> <span>Association</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="site-gottoshare" data-grand="/assets/images/wb-gottoshare-1200.webp" data-alt="Site Got to Share sur ordinateur et téléphone" data-titre="Got to Share · Association" aria-label="Voir en grand : Got to Share, Association"><span aria-hidden="true">+</span></button>
+</article>
+  </div>
+  <div class="galerie-progres" aria-hidden="true"><span></span></div>
+</section>
+<section class="fin bande-bleue" id="fin">
+  <div class="fin-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel>
+    <p data-fx-rangee>Emballer · Imprimer · Marquer · Mettre en vitrine ·</p>
+    <p data-fx-rangee data-sens="-1">Démarquez-vous · Habillez votre marque ·</p>
+  </div>
+  <div class="conteneur fin-grille">
+    <h2 class="titre" data-anime="lignes">Votre marque est <em class="mot">dans les starting-blocks ?</em></h2>
+    <div>
+      <p data-anime>Logo à créer, à moderniser, ou site à mettre en ligne : décrivez votre projet.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/contact?projet=logo#devis" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un logo ou un site</a>
+        <a class="bouton bouton--contour" href="tel:+33675014560">Appeler 06 75 01 45 60</a>
+      </p>
+    </div>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Visionneuse des réalisations" hidden>
+  <figure class="visionneuse-figure"><figcaption data-visionneuse-titre aria-live="polite"></figcaption></figure>
+  <button type="button" class="visionneuse-bouton visionneuse-prec" data-visionneuse-prec aria-label="Réalisation précédente">←</button>
+  <button type="button" class="visionneuse-bouton visionneuse-suiv" data-visionneuse-suiv aria-label="Réalisation suivante">→</button>
+  <button type="button" class="visionneuse-bouton visionneuse-fermer" data-visionneuse-fermer>Fermer</button>
+</div>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span></p>
+      <p>Graphiste indépendant, packaging, imprimés, logos et sites web.</p>
+      <p>Paris et périphérie<br><a href="tel:+33675014560">06 75 01 45 60</a><br><a href="mailto:t.creativekeys@orange.fr">t.creativekeys@orange.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites" aria-current="page">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/pfscreationdesign/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://twitter.com/PFS_DiamantS" target="_blank" rel="noopener">Twitter<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://graphiste.com/thierrycreativekeys" target="_blank" rel="noopener">Graphiste.com<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire simulé, rien n&#39;est envoyé.</p><p>© Creative Keys</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33675014560">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

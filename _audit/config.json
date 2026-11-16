@@ -1,0 +1,22 @@
+{
+ "siteActuel": "creative-keys.fr",
+ "pagesTypes": [
+  "/",
+  "/packaging",
+  "/print",
+  "/logos-sites",
+  "/contact"
+ ],
+ "effets": [
+  "lineaire",
+  "vedette",
+  "mise-en-rayon",
+  "kakemono",
+  "compte-a-rebours",
+  "etapes",
+  "gondole"
+ ],
+ "grille": {
+  "dispenses": {}
+ }
+}

@@ -1,0 +1,262 @@
+{
+  "dossier": "/home/claude/creative-keys-maquette/recu/grok/hd",
+  "date": "2026-11-16T13:47:52.596Z",
+  "detection": "mesures sharp seulement",
+  "planches": [
+    "planche.jpg"
+  ],
+  "legende_planche": "cadre jaune : sujet ; croix rouge : cadrage ; fond rose : à vérifier",
+  "doublons": [],
+  "images": [
+    {
+      "fichier": "atelier.png",
+      "nom": "atelier",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2792337,
+      "transparence": false,
+      "sujet": {
+        "x": 43.8,
+        "y": 4.5,
+        "l": 56.3,
+        "h": 90.9,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        77,
+        41
+      ],
+      "cadrage_css": "77% 41%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.87,
+          "ton": "clair",
+          "recouvre_sujet": 0
+        },
+        {
+          "cote": "bas",
+          "score": 0.46,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "haut",
+          "score": 0.26,
+          "ton": "clair",
+          "recouvre_sujet": 0.49
+        },
+        {
+          "cote": "droite",
+          "score": 0.02,
+          "ton": "clair",
+          "recouvre_sujet": 0.91
+        }
+      ],
+      "qualite": {
+        "nettete": 28.1,
+        "bruit": 0.95,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "260c0930b0999185",
+      "drapeaux": [
+        "calme gauche"
+      ]
+    },
+    {
+      "fichier": "croquis.png",
+      "nom": "croquis",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 2657449,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        51,
+        43
+      ],
+      "cadrage_css": "51% 43%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0.09,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "bas",
+          "score": 0.08,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        },
+        {
+          "cote": "haut",
+          "score": 0.04,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        }
+      ],
+      "qualite": {
+        "nettete": 20.5,
+        "bruit": 0.47,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "b12e86b0386c7438",
+      "drapeaux": []
+    },
+    {
+      "fichier": "imprimerie.png",
+      "nom": "imprimerie",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 1074,
+      "ratio": "3:2",
+      "ratio_valeur": 1.49,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 3104722,
+      "transparence": false,
+      "sujet": {
+        "x": 0,
+        "y": 0,
+        "l": 100,
+        "h": 95.5,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        55,
+        47
+      ],
+      "cadrage_css": "55% 47%",
+      "zones_calmes": [
+        {
+          "cote": "gauche",
+          "score": 0,
+          "ton": "clair",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "droite",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.96
+        },
+        {
+          "cote": "haut",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 1
+        },
+        {
+          "cote": "bas",
+          "score": 0,
+          "ton": "moyen",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 28.5,
+        "bruit": 0.44,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "476cce8b4c981966",
+      "drapeaux": []
+    },
+    {
+      "fichier": "rayon-vide.png",
+      "nom": "rayon-vide",
+      "drapeau": null,
+      "largeur": 1600,
+      "hauteur": 900,
+      "ratio": "16:9",
+      "ratio_valeur": 1.778,
+      "orientation": "paysage",
+      "format": "png",
+      "poids": 1993358,
+      "transparence": false,
+      "sujet": {
+        "x": 3.1,
+        "y": 5.6,
+        "l": 87.5,
+        "h": 94.4,
+        "source": "contrastes"
+      },
+      "visages": 0,
+      "cadrage": [
+        52,
+        69
+      ],
+      "cadrage_css": "52% 69%",
+      "zones_calmes": [
+        {
+          "cote": "droite",
+          "score": 0.4,
+          "ton": "clair",
+          "recouvre_sujet": 0.72
+        },
+        {
+          "cote": "haut",
+          "score": 0.33,
+          "ton": "clair",
+          "recouvre_sujet": 0.74
+        },
+        {
+          "cote": "bas",
+          "score": 0.19,
+          "ton": "clair",
+          "recouvre_sujet": 0.88
+        },
+        {
+          "cote": "gauche",
+          "score": 0.14,
+          "ton": "clair",
+          "recouvre_sujet": 0.87
+        }
+      ],
+      "qualite": {
+        "nettete": 12.7,
+        "bruit": 0.37,
+        "compression": 1,
+        "faible": false,
+        "raisons": []
+      },
+      "lisible": null,
+      "empreinte": "0c1c8c0e32180ec3",
+      "drapeaux": []
+    }
+  ]
+}

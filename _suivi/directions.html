@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Creative Keys — trois directions</title>
+<style>
+@font-face{font-family:Brico;src:url(file:///home/claude/polices/node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-standard-normal.woff2) format('woff2');font-weight:200 800;font-stretch:75% 100%}
+@font-face{font-family:ISans;src:url(file:///home/claude/polices/node_modules/@fontsource-variable/instrument-sans/files/instrument-sans-latin-standard-normal.woff2) format('woff2');font-weight:400 700;font-stretch:75% 100%}
+@font-face{font-family:ISerif;font-style:italic;src:url(file:///home/claude/polices/node_modules/@fontsource/instrument-serif/files/instrument-serif-latin-400-italic.woff2) format('woff2')}
+@font-face{font-family:Fam;src:url(file:///home/claude/polices/node_modules/@fontsource-variable/familjen-grotesk/files/familjen-grotesk-latin-wght-normal.woff2) format('woff2');font-weight:400 700}
+@font-face{font-family:Frau;src:url(file:///home/claude/polices/node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-normal.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:Frau;font-style:italic;src:url(file:///home/claude/polices/node_modules/@fontsource-variable/fraunces/files/fraunces-latin-full-italic.woff2) format('woff2');font-weight:100 900}
+*{box-sizing:border-box;margin:0}
+body{width:1920px;background:#d9d8d4;font-family:ISans,sans-serif;padding:28px;color:#111}
+h1{font:700 26px ISans;margin:0 0 4px} .sous{font-size:15px;color:#444;margin-bottom:20px}
+.grille{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.dir{background:#fff;border-radius:6px;overflow:hidden}
+.ent{padding:16px 18px 10px}.ent b{font-size:20px}.ent span:not(.reco){display:block;font-size:14px;color:#555;margin-top:3px}
+.reco{display:inline-block;background:#2b3cf0;color:#fff;font-size:12px;padding:3px 8px;border-radius:20px;margin-left:8px;vertical-align:3px}
+.ecran{height:470px;position:relative;overflow:hidden}
+.pal{display:flex;height:74px}.pal div{flex:1;padding:8px;font-size:11.5px;line-height:1.3}
+.typo{padding:14px 18px;border-top:1px solid #eee}
+.idee{padding:0 18px 18px;font-size:13.5px;line-height:1.45;color:#333}
+.idee li{margin:3px 0 0 16px}
+/* A */
+.A{background:#edece8;color:#121212}
+.A .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;font:600 12px ISans}
+.A .nav i{font:800 15px Brico;font-style:normal;font-stretch:80%;letter-spacing:-.02em}
+.A .nav em{background:#2b3cf0;color:#fff;font-style:normal;padding:6px 11px;border-radius:30px}
+.A .etag{position:absolute;left:0;right:0;height:2px;background:#121212}
+.A .rang{position:absolute;display:flex;gap:10px;align-items:flex-end}
+.A .rang img{height:86px;border-radius:3px;background:#fff;padding:4px;opacity:.55;filter:grayscale(1)}
+.A h2{position:absolute;left:22px;top:140px;font:800 52px/0.92 Brico;font-stretch:78%;letter-spacing:-.035em;z-index:2}
+.A h2 em{font:400 58px/0.92 ISerif;font-style:italic;color:#2b3cf0;letter-spacing:-.01em}
+.A .vedette{position:absolute;right:22px;top:126px;width:250px;background:#fff;padding:10px;box-shadow:0 30px 50px -20px rgba(0,0,0,.35);transform:rotate(-2deg);z-index:2}
+.A .vedette img{width:100%;display:block}
+.A .tag{position:absolute;right:34px;top:318px;background:#ffe14a;font:700 11px ISans;padding:6px 9px;z-index:3;transform:rotate(-2deg)}
+.A .cta{position:absolute;left:22px;top:318px;display:flex;gap:10px;align-items:center;font:600 13px ISans;z-index:2}
+.A .cta b{background:#2b3cf0;color:#fff;padding:11px 16px;border-radius:30px}
+/* B */
+.B{background:#f6f4ef;color:#1b1a17}
+.B .nav{display:flex;justify-content:space-between;padding:14px 20px;font:600 12px Fam}.B .nav b{font:700 15px Fam}
+.B svg{position:absolute;left:290px;top:60px}
+.B h2{position:absolute;left:22px;top:120px;font:700 58px/0.95 Fam;letter-spacing:-.03em;width:300px}
+.B h2 em{font:italic 300 60px/0.95 Frau;color:#e5332a}
+.B .photo{position:absolute;left:340px;top:250px;width:250px;transform:rotate(3deg);box-shadow:0 20px 40px -18px rgba(0,0,0,.4)}
+.B .cta{position:absolute;left:22px;top:370px;font:600 13px Fam}.B .cta b{border:2px solid #1b1a17;padding:10px 14px;margin-right:8px}
+.B .kraft{position:absolute;left:0;right:0;bottom:0;height:46px;background:#c9a57b}
+/* C */
+.C{background:#0e0e10;color:#f2efe9}
+.C .nav{display:flex;justify-content:space-between;padding:14px 20px;font:500 12px ISans;color:#cfcac0}.C .nav b{font:600 16px Frau;color:#fff}
+.C .spot{position:absolute;left:250px;top:40px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(255,240,200,.22),rgba(255,240,200,0) 65%)}
+.C h2{position:absolute;left:22px;top:120px;font:300 66px/0.92 Frau;letter-spacing:-.03em}
+.C h2 em{font-style:italic;font-weight:600;color:#ffd21f}
+.C .prod{position:absolute;left:300px;top:200px;width:300px;filter:drop-shadow(0 30px 30px rgba(0,0,0,.6))}
+.C .cta{position:absolute;left:22px;top:350px;font:600 13px ISans}.C .cta b{background:#ffd21f;color:#0e0e10;padding:11px 16px;border-radius:2px;margin-right:8px}
+.C .clair{position:absolute;left:0;right:0;bottom:0;height:46px;background:#f2f0eb}
+</style></head><body>
+<h1>Creative Keys — trois directions (premier écran de l'accueil, palette, polices)</h1>
+<p class="sous">Les images sont ses vraies réalisations. Pas de logo Creative Keys sur le site actuel (la bannière est une photo de plage de banque d'images) : nom composé en lettres dans chaque direction.</p>
+<div class="grille">
+
+<div class="dir">
+  <div class="ent"><b>A · En rayon</b><span class="reco">Recommandée</span><span>Clair, énergique, ludique · « Démarquez-vous de la concurrence », au sens propre</span></div>
+  <div class="ecran A">
+    <div class="nav"><i>CREATIVE KEYS</i><span>Packaging · Print & PLV · Logos & sites · Contact</span><em>Demander un devis</em></div>
+    <div class="etag" style="top:112px"></div>
+    <div class="rang" style="top:28px;left:-40px"><img src="dir/erte.jpg"><img src="dir/togolais.jpg"><img src="dir/dayfruits.jpg"><img src="dir/confit.jpg"><img src="dir/larzac.jpg"></div>
+    <div class="etag" style="top:440px"></div>
+    <div class="rang" style="top:356px;left:330px"><img src="dir/macaron.jpg"><img src="dir/diosa.jpg"><img src="dir/tortillas.jpg"></div>
+    <h2>Habillez<br>votre marque.<br><em>Démarquez-vous.</em></h2>
+    <div class="vedette"><img src="dir/choco.png" style="background:#fff"></div>
+    <div class="tag">Chocolat 60 % · gamme packaging</div>
+    <div class="cta"><b>Demander un devis</b></div><div style="position:absolute;left:22px;top:368px;font:500 12px ISans;z-index:2">30 ans de packaging · Paris et périphérie</div>
+  </div>
+  <div class="pal"><div style="background:#edece8">Fond studio<br>#EDECE8</div><div style="background:#fff">Cartes<br>#FFFFFF</div><div style="background:#121212;color:#fff">Encre, bandes<br>#121212</div><div style="background:#2b3cf0;color:#fff">Accent<br>#2B3CF0</div><div style="background:#ffe14a">Étiquette<br>#FFE14A</div></div>
+  <div class="typo"><span style="font:800 34px Brico;font-stretch:78%;letter-spacing:-.03em">Vos emballages</span> <span style="font:400 36px ISerif;font-style:italic;color:#2b3cf0">m'emballent</span><br><span style="font:400 15px ISans">Bricolage Grotesque (titres, très gras, étroit) · Instrument Serif italique (le mot qui ressort) · Instrument Sans (texte)</span></div>
+  <ul class="idee"><li>Ouverture : un linéaire gris se remplit de ses packagings, un seul sort du rang et vient au premier plan.</li><li>Galerie « tête de gondole » épinglée, cartes qui s'inclinent à la vitesse, mur de logos, sites en vitrine.</li><li>Voile : deux portes coulissantes de magasin (rideau).</li></ul>
+</div>
+
+<div class="dir">
+  <div class="ent"><b>B · Le patron de découpe</b><span>Clair, précis, atelier · la boîte avant qu'elle soit pliée</span></div>
+  <div class="ecran B">
+    <div class="nav"><b>Creative Keys</b><span>Packaging · Print & PLV · Logos & sites · Contact</span></div>
+    <svg width="330" height="300" viewBox="0 0 330 300" fill="none"><g stroke="#e5332a" stroke-width="2"><path d="M80 70h120v-50h-120zM80 70v160h120v-160M200 70h70v160h-70M80 70h-60v160h60M80 230h120v50h-120z"/></g><g stroke="#2b5bd7" stroke-width="1.6" stroke-dasharray="6 5"><path d="M80 70h120M80 230h120M200 70v160M80 70v160"/></g></svg>
+    <h2>Vos emballages<br><em>m'emballent</em></h2>
+    <img class="photo" src="dir/brownies.jpg">
+    <div class="cta"><b>Demander un devis</b> 06 75 01 45 60</div>
+    <div class="kraft"></div>
+  </div>
+  <div class="pal"><div style="background:#f6f4ef">Papier<br>#F6F4EF</div><div style="background:#c9a57b">Kraft<br>#C9A57B</div><div style="background:#1b1a17;color:#fff">Encre<br>#1B1A17</div><div style="background:#e5332a;color:#fff">Trait de coupe<br>#E5332A</div><div style="background:#2b5bd7;color:#fff">Rainage<br>#2B5BD7</div></div>
+  <div class="typo"><span style="font:700 32px Fam;letter-spacing:-.03em">Vos marques</span> <span style="font:italic 300 34px Frau;color:#e5332a">m'impressionnent</span><br><span style="font:400 15px ISans">Familjen Grotesk (titres) · Fraunces italique fine (le mot qui ressort) · Instrument Sans (texte)</span></div>
+  <ul class="idee"><li>Ouverture : le patron d'une boîte se dessine (traits de coupe rouges, rainages bleus en pointillé), puis se plie en 3D et s'ouvre sur une vraie réalisation.</li><li>Repères de coupe aux coins des grandes photos, bandes kraft pour rythmer.</li><li>Voile : la feuille glisse comme sous un massicot.</li></ul>
+</div>
+
+<div class="dir">
+  <div class="ent"><b>C · Sous le spot</b><span>Sombre, premium, ludique · ses couleurs éclatent sur le noir</span></div>
+  <div class="ecran C">
+    <div class="nav"><b>Creative Keys</b><span>Packaging · Print & PLV · Logos & sites · Contact</span></div>
+    <div class="spot"></div>
+    <h2>À vos<br>marques…<br><em>Partez !</em></h2>
+    <img class="prod" src="dir/versailles.png">
+    <div class="cta"><b>Demander un devis</b> 06 75 01 45 60</div>
+    <div class="clair"></div>
+  </div>
+  <div class="pal"><div style="background:#0e0e10;color:#fff">Noir vitrine<br>#0E0E10</div><div style="background:#f2f0eb">Sections utiles<br>#F2F0EB</div><div style="background:#2a2a2e;color:#fff">Cartes<br>#2A2A2E</div><div style="background:#ffd21f">Accent<br>#FFD21F</div><div style="background:#f2efe9">Texte<br>#F2EFE9</div></div>
+  <div class="typo"><span style="font:300 36px Frau;letter-spacing:-.03em">Lèche-</span><span style="font:italic 600 36px Frau;color:#b8920c">vitrine</span><br><span style="font:400 15px ISans">Fraunces (titres fins et très grands, italique grasse) · Instrument Sans (texte)</span></div>
+  <ul class="idee"><li>Ouverture : noir complet, un spot s'allume et suit la souris, ses packagings sortent de l'ombre.</li><li>Sections utiles en clair (catalogue, contact) pour casser le tout-sombre.</li><li>Voile : le spot se resserre sur le lien cliqué (iris).</li></ul>
+</div>
+
+</div></body></html>

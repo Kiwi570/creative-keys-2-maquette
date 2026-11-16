@@ -1,0 +1,1115 @@
+[
+ {
+  "source": "recu/site/emballages-m-emballent.jpg",
+  "nom": "pk-miel",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Pots de miel de France posés sur une table de petit-déjeuner, champ de lavande en fond",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-2.png",
+  "nom": "pk-brownies",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Étui et barres Brownies Pocket de Maison Erté, rayures chocolat sur fond jaune",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-3.jpg",
+  "nom": "pk-macaron",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Étui Macaron crème glacée vanille de Tiliz, macarons au chocolat posés devant",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-4.jpg",
+  "nom": "pk-cookie",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Pot de glace Cookie Dough de Tiliz sur fond rose, fraises et pépites de chocolat",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-5.jpg",
+  "nom": "pk-tortillas",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Gamme de sachets de tortillas chips Kash sur fond jaune et orange",
+  "beaute": 4,
+  "univers": "sale",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-6.png",
+  "nom": "pk-cartilamine",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Pot et étui Cartilamine Phyto, mobilité et articulations, sur fond bleu nuit",
+  "beaute": 4,
+  "univers": "sante",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-7.jpg",
+  "nom": "pk-saumon",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Sachet de saumon fumé à côté de tartines de saumon",
+  "beaute": 4,
+  "univers": "sale",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-8.png",
+  "nom": "pk-diosa",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Briques de nectar Diosa à la mangue, à l’ananas et à l’orange, fruits frais autour",
+  "beaute": 5,
+  "univers": "boissons",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-9.png",
+  "nom": "pk-plaisir",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Quatre sachets de pâtée Plaisir pour chiens et chats",
+  "beaute": 3,
+  "univers": "animaux",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-10.jpg",
+  "nom": "pk-haricots",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Sachet de haricots verts extra-fins Mon Potager Frais, haricots frais autour",
+  "beaute": 4,
+  "univers": "sale",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-11.jpg",
+  "nom": "pk-huile",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Bouteilles d’huile d’olive vierge extra, l’une suspendue comme une enseigne en forêt",
+  "beaute": 3,
+  "univers": "sale",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-12.jpg",
+  "nom": "pk-chocolat60",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Trois tablettes de chocolat 60 % cacao aux fruits, orange, rose et vert",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-13.jpg",
+  "nom": "pk-larzac",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Gamme de bières du Larzac : six bouteilles aux étiquettes de couleurs différentes",
+  "beaute": 4,
+  "univers": "boissons",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-14.jpg",
+  "nom": "pk-erte-sachets",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Gamme de sachets Maison Erté : madeleines, mini cakes, rochers coco, petits bouchons",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-15.jpg",
+  "nom": "pk-veinavital",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Présentoir de comptoir Veinavital tenu par une pharmacienne, logo du laboratoire Vital Santé",
+  "beaute": 3,
+  "univers": "sante",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-16.jpg",
+  "nom": "pk-togolais",
+  "role": "galerie",
+  "ratio": "2:1",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Quatre sachets de mini biscuits Togolais de la biscuiterie Enougan",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-17.jpg",
+  "nom": "pk-protein",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Sachets de protéine végane et de maca bio en poudre",
+  "beaute": 3,
+  "univers": "sante",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-18.png",
+  "nom": "pk-maisoncafe",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Paquet de café Ma Tradition de Maison du Café, offre trois plus un",
+  "beaute": 3,
+  "univers": "boissons",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-19.png",
+  "nom": "pk-ourson",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Pots de pâte à tartiner Ourson et Mi-Cho-Ko",
+  "beaute": 3,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-20.png",
+  "nom": "pk-calendrier",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Deux calendriers de l’Avent illustrés",
+  "beaute": 3,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-21.jpg",
+  "nom": "pk-dayfruits",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Gamme de six sachets de fruits croquants Day Fruits : pomme, framboise, ananas, fraise, banane, mangue",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-22.jpg",
+  "nom": "pk-confitures",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Gamme de pots de confiture aux étiquettes noires et rouges, sur deux rangs",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-23.png",
+  "nom": "pk-versailles",
+  "role": "galerie",
+  "ratio": "2000:1211",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Tablettes Chocolats de Versailles, étuis orange et noir",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/emballages-m-emballent-24.jpg",
+  "nom": "pk-tablettes",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Tablettes de chocolat 35 %, 60 % et 80 % cacao, étuis blanc, argent et brun",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-2.jpg",
+  "nom": "pk-coffret-fruits",
+  "role": "galerie",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Coffrets de sachets de fruits séchés Rand Fruits sur fond bleu",
+  "beaute": 4,
+  "univers": "sucre",
+  "page": "packaging"
+ },
+ {
+  "source": "recu/site/habillez-marque-demarquez-vous.png",
+  "nom": "pk-chocolat60-detoure",
+  "role": "produit",
+  "ratio": "2000:1387",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Trois tablettes de chocolat 60 % cacao, étuis orange, rose et vert",
+  "beaute": 5,
+  "page": "accueil"
+ },
+ {
+  "source": "recu/site/logos-2.png",
+  "nom": "wb-mymyb-detoure",
+  "role": "produit",
+  "ratio": "2000:1419",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site MyMy B affiché sur un ordinateur portable et un téléphone",
+  "beaute": 4,
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/logos.png",
+  "nom": "pr-depliant-detoure",
+  "role": "produit",
+  "ratio": "2000:1762",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Dépliant de restaurant ouvert, photo de plat et carte",
+  "beaute": 4,
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent.jpg",
+  "nom": "pr-rollup-plaisir",
+  "role": "galerie",
+  "ratio": "4:3",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Kakémono Plaisir, chien et chat, devant un mur au motif de la marque",
+  "beaute": 3,
+  "univers": "plv",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-3.jpg",
+  "nom": "pr-calendrier-plaisir",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Calendrier de l’Avent Les Repas Plaisir, cases illustrées, chiens et chats sous la neige",
+  "beaute": 4,
+  "univers": "editions",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-4.jpg",
+  "nom": "pr-lor-coupons",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Annonces et bons de réduction L’Or, noir et or",
+  "beaute": 3,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-5.jpg",
+  "nom": "pr-chalosse",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Menu de La Ferme de Chalosse, couverture brune et pages intérieures",
+  "beaute": 3,
+  "univers": "editions",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-6.jpg",
+  "nom": "pr-smile",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Plaquette Smile, recto et verso, bleu et blanc",
+  "beaute": 4,
+  "univers": "plaquettes",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-7.jpg",
+  "nom": "pr-mystic",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Affiche Mystic Spear : flèches et arc sur fond noir, lettrage or et rouge",
+  "beaute": 4,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-8.jpg",
+  "nom": "pr-rollup-erte",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200,
+   1600
+  ],
+  "alt": "Kakémono Maison Erté dans l’allée d’un supermarché, clients flous autour",
+  "beaute": 4,
+  "univers": "plv",
+  "page": "print",
+  "mobile": "9:16"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-9.jpg",
+  "nom": "pr-executive",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Plaquette Executive ouverte, pages noires et portraits",
+  "beaute": 3,
+  "univers": "plaquettes",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-10.jpg",
+  "nom": "pr-aysh",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Visuels Aysh Glamm, maquilleuse : portraits maquillés et palette noire",
+  "beaute": 4,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-11.jpg",
+  "nom": "pr-sushi",
+  "role": "galerie",
+  "ratio": "2000:1065",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Quatre menus de restaurant de sushis",
+  "beaute": 3,
+  "univers": "editions",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-12.jpg",
+  "nom": "pr-madeleines",
+  "role": "galerie",
+  "ratio": "4:5",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Affiche Maison Erté : « La plus délicieuse des madeleines… c’est elle ! »",
+  "beaute": 4,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-13.jpg",
+  "nom": "pr-estheticenter",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Flyer Esthéticenter, soins du visage et épilation laser",
+  "beaute": 3,
+  "univers": "plaquettes",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-14.png",
+  "nom": "pr-lor-bio",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Annonces et bons L’Or Bio et dosettes, vert et noir",
+  "beaute": 3,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-15.png",
+  "nom": "pr-xlwines",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Visuel XL Wines : bouteilles en cascade",
+  "beaute": 3,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-16.png",
+  "nom": "pr-lor-sublime",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Affiches L’Or « Goûtez au sublime » et « Puissant et rond », noir et or",
+  "beaute": 4,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-17.png",
+  "nom": "pr-brazil",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Coffrets de café Brazil de Maison du Café, rouge et noir",
+  "beaute": 3,
+  "univers": "plv",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-18.jpg",
+  "nom": "pr-novalyo",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Brochure Novalyo ouverte, carte et schémas",
+  "beaute": 3,
+  "univers": "plaquettes",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-19.jpg",
+  "nom": "pr-monblanc",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Page de recettes gourmandes Mont Blanc, mosaïque de desserts",
+  "beaute": 3,
+  "univers": "affiches",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-m-impressionnent-20.jpg",
+  "nom": "pr-enougan",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Dépliant de la biscuiterie Enougan Bio, gamme Togolais",
+  "beaute": 3,
+  "univers": "plaquettes",
+  "page": "print"
+ },
+ {
+  "source": "recu/site/marques-prets-partez.jpg",
+  "nom": "lg-agafay",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Le Royaume Agafay Camp sur un paysage de désert",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-2.jpg",
+  "nom": "lg-emma",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Beauty Emma, prothésiste ongulaire, flacon de vernis et main",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-3.jpg",
+  "nom": "lg-erte",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Maison Erté, biscuitiers de père en fils depuis 1888",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-4.jpg",
+  "nom": "lg-togolais",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logos Biscuiterie Enougan Bio et Mini Biscuits Togolais",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-5.jpg",
+  "nom": "lg-najat",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-6.jpg",
+  "nom": "lg-dayfruits",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Day Fruits « C’est mon fruit croustillant »",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-7.jpg",
+  "nom": "lg-barbershop",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Deux logos Barber Shop, coupes de cheveux et rasages",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-8.png",
+  "nom": "lg-babyboss",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Déclinaisons du logo Baby Boss, « le boss c’est bébé »",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-9.jpg",
+  "nom": "lg-serenity",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Deux versions du logo Sérénity Village, construction intergénération",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-10.jpg",
+  "nom": "lg-vache",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo La Vache aux pieds nus sur des pots de crème fraîche et de fromage frais",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-11.png",
+  "nom": "lg-transeurope",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Trans Europe 45, lettrage rouge et gris",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-12.jpg",
+  "nom": "lg-pauline",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo La Vitrine de Pauline, colibri et écriture violette",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-13.jpg",
+  "nom": "lg-action",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Action dans le monde, globe noir et jaune",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/marques-prets-partez-14.jpg",
+  "nom": "lg-celina",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Identité Celina Paris : vase et coussin aux motifs berbères",
+  "beaute": 4,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/packagings.jpg",
+  "nom": "lg-emma-ongulaire",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800
+  ],
+  "alt": "Logo Emma Beauty, prothésiste ongulaire, version horizontale",
+  "beaute": 3,
+  "univers": "logos",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine.jpg",
+  "nom": "wb-ladioss",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site Ladioss sur ordinateur et téléphone",
+  "beaute": 3,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-2.jpg",
+  "nom": "wb-mymyb",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site MyMy B, bijoux, sur ordinateur et téléphone",
+  "beaute": 4,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-3.jpg",
+  "nom": "wb-estheticenter",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site Esthéticenter sur ordinateur et téléphone",
+  "beaute": 4,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-4.jpg",
+  "nom": "wb-tahiti",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site Tahiti Wrap, covering automobile, sur ordinateur et téléphone",
+  "beaute": 4,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-5.jpg",
+  "nom": "wb-longuet",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site Maison Longuet, crêpes et pâtisserie, sur ordinateur et téléphone",
+  "beaute": 4,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-6.jpg",
+  "nom": "wb-gottoshare",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site Got to Share sur ordinateur et téléphone",
+  "beaute": 3,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-7.jpg",
+  "nom": "wb-erte",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site de la biscuiterie Erté sur ordinateur et téléphone",
+  "beaute": 4,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/site/profitez-faire-leche-vitrine-8.jpg",
+  "nom": "wb-enougan",
+  "role": "galerie",
+  "ratio": "3:2",
+  "largeurs": [
+   480,
+   800,
+   1200
+  ],
+  "alt": "Site de la biscuiterie Enougan sur ordinateur et téléphone",
+  "beaute": 3,
+  "univers": "web",
+  "page": "logos-sites"
+ },
+ {
+  "source": "recu/grok/hd/atelier.png",
+  "nom": "grok/atelier",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ],
+  "mobile": "4:5",
+  "zone_texte": "gauche",
+  "alt": "Table de graphiste vue de dessus : épreuves de couleur, patron de boîte en carton blanc, nuancier, règle et cutter",
+  "beaute": 4,
+  "page": "accueil",
+  "emplacement": "Accueil : « 30 ans à habiller des marques », grande image à droite du texte",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "Overhead flat lay of a graphic designer’s large pale grey work table seen from directly above: a flat white cardboard box dieline with fold lines, a fan of colour swatches, two printed colour proofs made only of abstract colour blocks with no letters, a steel ruler, a yellow cutter and a sharp pencil, everything neatly arranged on the right two thirds, the left third left empty and calm."
+ },
+ {
+  "source": "recu/grok/hd/imprimerie.png",
+  "nom": "grok/imprimerie",
+  "role": "section-fond",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ],
+  "zone_texte": "droite",
+  "alt": "Sortie d’une presse offset : piles de feuilles imprimées de couleurs vives, lumière d’atelier",
+  "beaute": 4,
+  "page": "print",
+  "emplacement": "Print & PLV : section « Jusqu’au BAT », grande image à gauche",
+  "priorite": "Conseillée",
+  "gabarit": "scene-metier",
+  "consigne_scene": "The delivery end of a large offset printing press in a clean print shop, neat stacks of freshly printed sheets covered with bright abstract colour blocks and die-cut box shapes, no letters or logos, warm practical lighting, a sharp stack in the foreground and the machine softly blurred behind, nobody."
+ },
+ {
+  "source": "recu/grok/hd/croquis.png",
+  "nom": "grok/croquis",
+  "role": "ouverture",
+  "ratio": "3:2",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ],
+  "mobile": "4:5",
+  "zone_texte": "gauche",
+  "alt": "Carnet de croquis ouvert : esquisses au crayon de formes de logo, feutres et tasse de café",
+  "beaute": 4,
+  "page": "contact",
+  "emplacement": "Contact : ouverture, image à droite du formulaire",
+  "priorite": "Indispensable",
+  "gabarit": "scene-metier",
+  "consigne_scene": "Overhead view of an open sketchbook on a light grey desk with pencil sketches of simple abstract logo shapes made only of circles, keys and arrows, absolutely no letters, three felt-tip markers in black, ultramarine blue and yellow, a white coffee cup partly out of frame, everything on the right half, the left half empty."
+ },
+ {
+  "source": "recu/grok/hd/rayon-vide.png",
+  "nom": "grok/rayon-vide",
+  "role": "404",
+  "ratio": "16:9",
+  "largeurs": [
+   640,
+   1280,
+   1600
+  ],
+  "mobile": "9:16",
+  "zone_texte": "haut",
+  "alt": "Rayon de magasin entièrement vide, étagères blanches sous une lumière douce",
+  "beaute": 4,
+  "page": "404",
+  "emplacement": "Page 404 « Rupture de stock » : image d’ouverture",
+  "priorite": "Indispensable",
+  "gabarit": "404",
+  "consigne_scene": "A clean, completely empty supermarket shelf unit seen from the front: five long white metal shelves with nothing on them, only empty price label rails with no labels, soft even light, light grey floor, a gentle touch of humour from the total emptiness, no products, no packaging, no people."
+ }
+]

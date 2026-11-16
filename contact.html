@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact et devis · Creative Keys</title>
+<meta name="description" content="Un packaging, un imprimé, un logo ou un site ? Décrivez votre projet en trois étapes ou appelez Thierry au 06 75 01 45 60.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creative-keys-2-maquette.vercel.app/contact">
+<style>:root{--fond:#EDECE8;--texte:#121212;--voile-fond:#121212;--ouverture-fond:#EDECE8;--menu-fond:#EDECE8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#EDECE8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Creative Keys">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact et devis · Creative Keys">
+<meta property="og:description" content="Un packaging, un imprimé, un logo ou un site ? Décrivez votre projet en trois étapes ou appelez Thierry au 06 75 01 45 60.">
+<meta property="og:url" content="https://creative-keys-2-maquette.vercel.app/contact">
+<meta property="og:image" content="https://creative-keys-2-maquette.vercel.app/assets/partage/contact-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Carnet de croquis de logos sur un bureau">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Creative Keys","url":"https://creative-keys-2-maquette.vercel.app/","telephone":"+33675014560","email":"t.creativekeys@orange.fr","founder":{"@type":"Person","name":"Thierry Poincet","jobTitle":"Graphiste"},"areaServed":"Paris et périphérie","knowsAbout":["Packaging","Création de marque","Logo","PLV","Plaquettes et affiches","Sites web"],"sameAs":["https://www.instagram.com/pfscreationdesign/","https://twitter.com/PFS_DiamantS","https://graphiste.com/thierrycreativekeys"],"description":"Graphiste indépendant : packaging, création de marque, PLV, imprimés et sites web, 30 ans d'expérience."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Creative Keys</span><span data-voile-libelle>Contact</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-rayons"><div class="intro-etagere" style="--i:0"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:1"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-trou"></span><span class="intro-facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:2"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div></div>
+  <p class="ouverture-nom">Creative Keys</p>
+  <p class="ouverture-ligne">Packaging · Print · Logos · Web</p>
+  <img class="ouverture-objet" src="/assets/images/pk-chocolat60-detoure-480.webp" alt="" width="480" height="333" decoding="async" data-ouverture-objet>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/packaging" class="menu-lien" data-libelle="Packaging">Packaging</a></li><li style="--i:2"><a href="/print" class="menu-lien" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li style="--i:3"><a href="/logos-sites" class="menu-lien" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33675014560">Appeler 06 75 01 45 60</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-contact" id="debut">
+  <div class="conteneur ouv-contact-grille">
+    <div class="ouv-contact-texte">
+      <p class="surtitre" data-anime="gsap">Contact et devis</p>
+      <h1 class="titre titre--page" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">Parlons de</span></span> <span class="ligne-masque"><em class="mot ouv-ligne">votre marque</em></span></h1>
+      <p class="masque-ecran-tres-bas" data-anime="gsap">Trois étapes pour décrire votre projet, ou un coup de fil à Thierry.</p>
+      <p class="ouv-actions" data-anime="gsap"><a class="bouton" href="#devis" data-action-principale data-sans-transition>Demander un devis</a> <a class="bouton bouton--contour" href="tel:+33675014560">Appeler Thierry</a></p>
+      <p class="ouv-info" data-info-cle data-anime="gsap">06 75 01 45 60 · Paris et périphérie</p>
+    </div>
+    <figure class="media ouv-contact-media" data-grok data-iris-centre data-fx="parallaxe" data-fx-force="6" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/croquis-mobile-640.webp 640w, /assets/images/grok/croquis-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 46vw">
+    <img src="/assets/images/grok/croquis-1280.webp" srcset="/assets/images/grok/croquis-640.webp 640w, /assets/images/grok/croquis-1280.webp 1280w, /assets/images/grok/croquis-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 46vw" alt="Carnet de croquis ouvert : esquisses au crayon de formes de logo, feutres et tasse de café" width="1280" height="854" fetchpriority="high" loading="eager" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="devis bande-blanche" id="devis">
+  <div class="conteneur devis-grille">
+    <form class="devis-form" data-formulaire data-etapes novalidate>
+      <ol class="devis-progres" aria-hidden="true"><li data-progres="1" class="actif"><span>1</span><span class="lib">Votre projet</span></li><li data-progres="2"><span>2</span><span class="lib">Les détails</span></li><li data-progres="3"><span>3</span><span class="lib">Vos coordonnées</span></li></ol>
+      <p class="devis-etape-num" aria-live="polite" data-etape-annonce>Étape 1 sur 3</p>
+      <fieldset class="devis-etape" data-etape="1">
+        <legend class="titre titre--etape">Qu&#39;avez-vous à habiller ?</legend>
+        <div class="choix-projet" data-anime="cascade">
+          <label class="choix"><input type="radio" name="projet" value="packaging" required><span class="choix-carte"><span class="choix-num">01</span>Un packaging ou une gamme</span></label><label class="choix"><input type="radio" name="projet" value="print"><span class="choix-carte"><span class="choix-num">02</span>Un imprimé ou de la PLV</span></label><label class="choix"><input type="radio" name="projet" value="logo"><span class="choix-carte"><span class="choix-num">03</span>Un logo</span></label><label class="choix"><input type="radio" name="projet" value="site"><span class="choix-carte"><span class="choix-num">04</span>Un site web</span></label><label class="choix"><input type="radio" name="projet" value="autre"><span class="choix-carte"><span class="choix-num">05</span>Autre chose</span></label>
+        </div>
+        <p class="devis-nav"><button type="button" class="bouton" data-etape-suivante>Suivant →</button></p>
+      </fieldset>
+      <fieldset class="devis-etape" data-etape="2" hidden>
+        <legend class="titre titre--etape">Les détails</legend>
+        <div class="champ"><label for="description">Décrivez-le en quelques lignes</label><textarea id="description" name="description" rows="5" required aria-describedby="description-aide"></textarea><p class="champ-aide" id="description-aide">Produit, nombre de références, formats, ce qui existe déjà…</p></div>
+        <div class="champ"><label for="delai">Pour quand ?</label><select id="delai" name="delai" required><option value=""></option><option value="urgent">Dès que possible</option><option value="mois">Dans le mois</option><option value="trimestre">Dans les trois mois</option><option value="libre">Pas de date fixée</option></select></div>
+        <p class="devis-nav"><button type="button" class="bouton bouton--contour" data-etape-precedente>← Retour</button> <button type="button" class="bouton" data-etape-suivante>Suivant →</button></p>
+      </fieldset>
+      <fieldset class="devis-etape" data-etape="3" hidden>
+        <legend class="titre titre--etape">Vos coordonnées</legend>
+        <div class="champs-deux">
+          <div class="champ"><label for="nom">Nom et prénom</label><input id="nom" name="nom" autocomplete="name" required></div>
+          <div class="champ"><label for="entreprise">Marque ou entreprise</label><input id="entreprise" name="entreprise" autocomplete="organization"></div>
+          <div class="champ"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" inputmode="email" required></div>
+          <div class="champ"><label for="telephone">Téléphone</label><input id="telephone" name="telephone" type="tel" autocomplete="tel" inputmode="tel"></div>
+        </div>
+        <p class="mention-donnees">Vos coordonnées servent seulement à répondre à votre demande. Politique de confidentialité : à compléter.</p>
+        <p class="devis-nav"><button type="button" class="bouton bouton--contour" data-etape-precedente>← Retour</button> <button type="submit" class="bouton">Envoyer la demande</button></p>
+        <p data-message-envoi tabindex="-1" hidden data-texte="Demande simulée : rien n&#39;a été envoyé. Sur le site final, elle arrivera chez Thierry."></p>
+      </fieldset>
+    </form>
+    <aside class="devis-recap" aria-label="Votre demande">
+      <div class="recap-ticket">
+        <p class="recap-titre">Votre demande</p>
+        <dl data-recap>
+          <div><dt>Votre projet</dt><dd data-recap-projet>Choisissez un projet pour commencer.</dd></div>
+          <div><dt>Pour quand ?</dt><dd data-recap-delai>·</dd></div>
+          <div><dt>Vos coordonnées</dt><dd data-recap-qui>·</dd></div>
+        </dl>
+        <p class="etiquette"><strong>Creative Keys</strong> <span>Réponse par Thierry, graphiste depuis 30 ans</span></p>
+      </div>
+      <div class="direct">
+        <p class="surtitre">Sans formulaire</p>
+        <p><a class="direct-lien" href="tel:+33675014560">06 75 01 45 60</a></p>
+        <p><a class="direct-lien direct-lien--mail" href="mailto:t.creativekeys@orange.fr">t.creativekeys@orange.fr</a></p>
+        <p>Paris et périphérie</p>
+        <p class="direct-reseaux">Ses réalisations au fil de l&#39;eau : <a href="https://www.instagram.com/pfscreationdesign/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+      </div>
+    </aside>
+  </div>
+</section>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span></p>
+      <p>Graphiste indépendant, packaging, imprimés, logos et sites web.</p>
+      <p>Paris et périphérie<br><a href="tel:+33675014560">06 75 01 45 60</a><br><a href="mailto:t.creativekeys@orange.fr">t.creativekeys@orange.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact" aria-current="page">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/pfscreationdesign/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://twitter.com/PFS_DiamantS" target="_blank" rel="noopener">Twitter<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://graphiste.com/thierrycreativekeys" target="_blank" rel="noopener">Graphiste.com<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire simulé, rien n&#39;est envoyé.</p><p>© Creative Keys</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33675014560">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

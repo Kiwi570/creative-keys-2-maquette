@@ -1,0 +1,15 @@
+{
+  "nom": "Creative Keys",
+  "adresse": "https://creative-keys-2-maquette.vercel.app",
+  "siteActuel": "creative-keys.fr",
+  "version": 1,
+  "langues": ["fr"],
+  "navigation": ["accueil", "packaging", "print", "logos-sites", "contact"],
+  "actionEntete": { "page": "contact", "ancre": "devis" },
+  "couleurs": { "fond": "#EDECE8", "texte": "#121212", "voile": "#121212", "ouverture": "#EDECE8", "menu": "#EDECE8", "theme": "#EDECE8" },
+  "formeVoile": "rideau",
+  "contact": { "telephone": "06 75 01 45 60", "telephoneLien": "+33675014560", "email": "t.creativekeys@orange.fr", "adresse": "Paris et périphérie", "instagram": "https://www.instagram.com/pfscreationdesign/", "twitter": "https://twitter.com/PFS_DiamantS" },
+  "polices": ["/assets/fonts/bricolage.woff2"],
+  "imagePartage": "pk-chocolat60-detoure-1200.webp",
+  "curseur": true
+}

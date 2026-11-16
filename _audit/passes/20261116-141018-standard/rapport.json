@@ -1,0 +1,1764 @@
+{
+  "echecs": [
+    {
+      "niveau": "echec",
+      "controle": "premier écran : information clé hors de l’écran",
+      "detail": "",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-grille.conteneur:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.hero-info:nth-of-type(4) « 30 ans de packaging · Paris et périphérie »",
+      "lieux": [
+        "320×568 normal",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.2 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut > button.rayons-pause > span « ❚❚ »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(2) > span.hero-ligne « votre marque. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(1) > span.hero-ligne « Habillez »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(3) > em.hero-ligne.mot « Démarquez-vous. »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.hero-texte:nth-of-type(1) > h1.hero-titre > span.ligne-masque:nth-of-type(2) > span.hero-ligne « votre marque. »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/pk-erte-sachets-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(2) > picture > img « Gamme de sachets Maison Erté »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/pk-cookie-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(3) > picture > img « Mise en ambiance du Cookie Dough Tiliz »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/pk-togolais-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "320×568",
+      "mode": "normal",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(4) > picture > img « Gamme Togolais déclinée en quatre parfums »",
+      "lieux": [
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/lg-erte-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(1) > picture > img « Logo Maison Erté »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/pk-veinavital-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(5) > picture > img « Présentoir de comptoir Veinavital »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "image non chargée",
+      "detail": "http://127.0.0.1:32831/assets/images/wb-erte-480.webp",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "sansJs",
+      "selecteur": "div.etapes-cadre > figure.media.etapes-media:nth-of-type(6) > picture > img « Site de la biscuiterie Erté »",
+      "lieux": [
+        "390×844 sansJs",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div.ouv-contact-texte > h1.titre.titre--page > span.ligne-masque:nth-of-type(1) > span.ouv-ligne « Parlons de »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-contact-grille > div.ouv-contact-texte > p.surtitre:nth-of-type(1) « CONTACT ET DEVIS »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "textes qui se chevauchent",
+      "detail": "avec div:nth-of-type(1) > h1.titre.titre--page > span.ligne-masque:nth-of-type(1) > span.ouv-ligne « Vos emballages »",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-pack-tete:nth-of-type(1) > div:nth-of-type(1) > p.surtitre « PACKAGING · 24 RÉALISATIONS »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete-section.tete-section--ligne:nth-of-type(1) > h2.titre > span.titre-num « 01 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete-section.tete-section--ligne:nth-of-type(1) > h2.titre > span.titre-num « 02 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete-section.tete-section--ligne:nth-of-type(1) > h2.titre > span.titre-num « 03 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "texte sous 12 px",
+      "detail": "11.8 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "div.conteneur > div.tete-section.tete-section--ligne:nth-of-type(1) > h2.titre > span.titre-num « 04 »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "visionneuse",
+      "detail": "le lien #r-larzac n’ouvre pas la réalisation",
+      "etape": "parcours",
+      "page": "/packaging",
+      "taille": "390×844",
+      "lieux": [
+        "390×844",
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 250 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 227 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 267 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 283 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 302 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 314 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 398 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : changement brusque",
+      "detail": "à 471 ms (différence 21 %) (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 881 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 903 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1222 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1322 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1341 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 1972 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2014 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2039 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2066 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2115 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2139 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2903 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2932 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 2963 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3315 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3343 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3378 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3401 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3426 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3501 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3520 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3542 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : changement brusque",
+      "detail": "à 3624 ms (différence 31 %) (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3645 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : changement brusque",
+      "detail": "à 3665 ms (différence 21 %) (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 3697 ms (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : changement brusque",
+      "detail": "à 3871 ms (différence 21 %) (films/epinglage-1.png)",
+      "etape": "ecran",
+      "page": "/",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    },
+    {
+      "niveau": "echec",
+      "controle": "épinglage : image isolée différente (flash)",
+      "detail": "à 522 ms (films/epinglage-logos-sites-1.png)",
+      "etape": "ecran",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "lieux": [
+        "1366×768"
+      ]
+    }
+  ],
+  "aRegarder": [
+    {
+      "niveau": "regarder",
+      "controle": "« à compléter » visible",
+      "detail": "1 fois hors du pied de page : remplacer par une phrase vraie qui oriente le visiteur (« Tarifs selon la saison, donnés à la réservation ») ou retirer l'élément, et le noter dans la fiche du README (sauf sens propre : « dossier à compléter »)",
+      "etape": "fichiers",
+      "page": "contact.html",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : effet signature qui ne se manipule pas (point 1)",
+      "detail": "aucun élément data-grille=\"manipuler\" sur l’accueil : objet à attraper, faire tourner ou glisser (module objet-a-faire-tourner, lumiere-au-pointeur…)",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : rien ne relie les sections (point 4)",
+      "detail": "sur aucune page : élément du métier qui relie les sections et les pages (fil dans la marge, objet unique qui change, lumière qui passe, carte, folio, frise), marqué data-grille=\"fil\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : aucun titre ne fait l’événement (point 5)",
+      "detail": "sur aucune page : titre fabriqué par le métier, axe de police animé ou titre joué avec l’image (modules axes-au-defilement, titre-cousu, texte-grave-en-direct), marqué data-grille=\"typo\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : galerie horizontale générique (point 6)",
+      "detail": "le métier a-t-il son geste (feuilleter un bac, empiler des planches, tourner les pages, ouvrir un tiroir) ? Modules bac-a-feuilleter, planches-empilees ; si la rangée qui défile est le geste du métier, ajouter data-grille=\"scene\"",
+      "etape": "grille",
+      "page": "/",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : galerie horizontale générique (point 6)",
+      "detail": "le métier a-t-il son geste (feuilleter un bac, empiler des planches, tourner les pages, ouvrir un tiroir) ? Modules bac-a-feuilleter, planches-empilees ; si la rangée qui défile est le geste du métier, ajouter data-grille=\"scene\"",
+      "etape": "grille",
+      "page": "/logos-sites",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : action principale sans retour physique (point 7)",
+      "detail": "ajout au panier, réservation, envoi ou filtre : quelque chose de l’objet part, se pose ou se transforme (module envol-vers-le-panier, tampon « reçu »), marqué data-grille=\"retour\"",
+      "etape": "grille",
+      "lieux": [
+        ""
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "grille : objet d’ouverture hors du premier écran",
+      "detail": "87 × 58 px visibles : l’intro et le voile s’ouvrent depuis le centre de l’écran à cette taille",
+      "etape": "grille",
+      "page": "/packaging",
+      "taille": "390×844",
+      "lieux": [
+        "390×844"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#etapes « CE QUE THIERRY PREND EN CHARGE Du logo au linéaire »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#avis « ILS EN PARLENT Ce qu'en disent ses clients « C’est »",
+      "lieux": [
+        "390×844 normal",
+        "768×1024 normal",
+        "320×568 normal",
+        "844×390 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "390×844 sansWebgl",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#studio > div.conteneur.studio-grille > figure.media.studio-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-larzac > p.etiquette > strong « BIÈRES DU LARZAC »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#metiers > div.conteneur > div.tete-section > p.surtitre « QUATRE MÉTIERS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#etapes > div.conteneur.etapes-grille > div.etapes-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « CE QUE THIERRY PREND EN CHARGE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#avis > div.conteneur > div.tete-section > p.surtitre « ILS EN PARLENT »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.avis-grille.fx-fini > li.avis-carte:nth-of-type(1) > blockquote > p « « C’est un réel plaisir de travailler avec lui. » »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.avis-grille.fx-fini > li.avis-carte:nth-of-type(2) > blockquote > p « « Un excellent travail de qualité, livré dans les  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.avis-grille.fx-fini > li.avis-carte:nth-of-type(3) > blockquote > p « « Particulièrement pour les commerçants qui cherch »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « « » »",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "ul.avis-grille.fx-fini > li.avis-carte:nth-of-type(4) > blockquote > p « « Au top, belle imagination et patience… rapidité  »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/",
+      "taille": "1920×1080",
+      "mode": "normal",
+      "selecteur": "section#debut > div.hero-grille.conteneur:nth-of-type(2) > div.hero-texte:nth-of-type(1) > p.surtitre.hero-surtitre:nth-of-type(1) « CREATIVE KEYS · GRAPHISTE PACKAGING »",
+      "lieux": [
+        "1920×1080 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > figure.media.ouv-404-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/404",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.ouv-404-texte > p.ouv-info:nth-of-type(4) > span.etiquette > strong « CREATIVE KEYS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#devis « 1 2 3 Étape 1 sur 3 Qu'avez-vous à habiller ? 01 U »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "844×390",
+      "mode": "normal",
+      "selecteur": "section#devis « 1 Votre projet 2 Les détails 3 Vos coordonnées Éta »",
+      "lieux": [
+        "844×390 normal",
+        "768×1024 normal",
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-contact-grille > div.ouv-contact-texte > p.surtitre:nth-of-type(1) « CONTACT ET DEVIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-contact-grille > figure.media.ouv-contact-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "aside.devis-recap > div.recap-ticket:nth-of-type(1) > p.etiquette:nth-of-type(2) > strong « CREATIVE KEYS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.devis-grille > aside.devis-recap > div.direct:nth-of-type(2) > p.surtitre:nth-of-type(1) « SANS FORMULAIRE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "typographie française",
+      "detail": "espace insécable manquante avant ou après « : »",
+      "etape": "mesures",
+      "page": "/contact",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "div.conteneur.devis-grille > aside.devis-recap > div.direct:nth-of-type(2) > p.direct-reseaux:nth-of-type(5) « Ses réalisations au fil de l'eau : Instagram (nouv »",
+      "lieux": [
+        "1366×768 normal"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "identifiant en double",
+      "detail": "id=\"r-erte\"",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "article#r-erte « MAISON ERTÉ Biscuitiers depuis 1888 + »",
+      "lieux": [
+        "390×844 normal",
+        "390×844 sansJs",
+        "1366×768 normal",
+        "1366×768 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-depart-grille > div.ouv-depart-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « LOGOS & SITES »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-pauline > p.etiquette > strong « LA VITRINE DE PAULINE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-agafay > p.etiquette > strong « LE ROYAUME AGAFAY CAMP »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-celina > p.etiquette > strong « CELINA PARIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-serenity > p.etiquette > strong « SÉRÉNITY VILLAGE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-vache > p.etiquette > strong « LA VACHE AUX PIEDS NUS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-transeurope > p.etiquette > strong « TRANS EUROPE 45 »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-action > p.etiquette > strong « ACTION DANS LE MONDE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-longuet > p.etiquette > strong « MAISON LONGUET »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-estheticenter > p.etiquette > strong « ESTHÉTICENTER »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/logos-sites",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-gottoshare > p.etiquette > strong « GOT TO SHARE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "section sans visuel",
+      "detail": "une belle photo ou un visuel animé quand le contenu s’y prête ; une section de texte peut rester typographique (v11)",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "390×844",
+      "mode": "normal",
+      "selecteur": "section#debut « PACKAGING · 24 RÉALISATIONS Vos emballages m'embal »",
+      "lieux": [
+        "390×844 normal",
+        "320×568 normal",
+        "390×844 sansJs",
+        "390×844 sansWebgl",
+        "320×568 sansJs"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-pack-tete:nth-of-type(1) > div:nth-of-type(1) > p.surtitre « PACKAGING · 24 RÉALISATIONS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-chocolat60 > p.etiquette > strong « CHOCOLAT 60 % »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-larzac > p.etiquette > strong « BIÈRES DU LARZAC »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-versailles > p.etiquette > strong « CHOCOLATS DE VERSAILLES »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-haricots > p.etiquette > strong « MON POTAGER FRAIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-cartilamine > p.etiquette > strong « CARTILAMINE PHYTO »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-miel > p.etiquette > strong « MIEL DE FRANCE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-huile > p.etiquette > strong « HUILE D’OLIVE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-protein > p.etiquette > strong « PROTÉINE ET MACA »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-maisoncafe > p.etiquette > strong « MAISON DU CAFÉ »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-ourson > p.etiquette > strong « OURSON ET MI-CHO-KO »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/packaging",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#inclus > div.conteneur.inclus-grille > div > p.surtitre « UN PACKAGING CREATIVE KEYS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#debut > div.conteneur.ouv-print-grille > div.ouv-print-texte:nth-of-type(1) > p.surtitre:nth-of-type(1) « PRINT & PLV · 19 RÉALISATIONS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-mystic > p.etiquette > strong « MYSTIC SPEAR »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-monblanc > p.etiquette > strong « RECETTES GOURMANDES »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-estheticenter > p.etiquette > strong « ESTHÉTICENTER »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-brazil > p.etiquette > strong « MAISON DU CAFÉ »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-calendrier-plaisir > p.etiquette > strong « LES REPAS PLAISIR »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-chalosse > p.etiquette > strong « LA FERME DE CHALOSSE »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.5 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "article#r-sushi > p.etiquette > strong « RESTAURANT DE SUSHIS »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.0 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#bat > div.conteneur.bat-grille > figure.media.bat-media > figcaption.mention-ia « Illustration générée »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    },
+    {
+      "niveau": "regarder",
+      "controle": "texte de contenu sous 13 px (ordinateur)",
+      "detail": "12.8 px : surtitres et légendes à 13 px au moins, textes de cartes à 15 px",
+      "etape": "mesures",
+      "page": "/print",
+      "taille": "1366×768",
+      "mode": "normal",
+      "selecteur": "section#bat > div.conteneur.bat-grille > div.bat-texte > p.surtitre:nth-of-type(1) « JUSQU'À L'IMPRIMEUR »",
+      "lieux": [
+        "1366×768 normal",
+        "1920×1080 normal",
+        "1366×768 sansJs",
+        "1366×768 sansWebgl"
+      ]
+    }
+  ],
+  "nonLances": [
+    {
+      "controle": "Safari (WebKit)",
+      "raison": "WebKit ne peut pas s’installer ici : vérification à faire dans Safari sur le Mac (liste dans le rapport)",
+      "etape": "safari"
+    }
+  ],
+  "oks": {
+    "vercel.json": 1,
+    ".vercelignore": 1,
+    "robots.txt": 1,
+    "numéro de version": 1,
+    "langues": 1,
+    "grille wouahou": 2,
+    "mesures": 66,
+    "balayage": 5,
+    "films d’ouverture": 10,
+    "films de transition": 10,
+    "bords de l’écran": 6,
+    "intro accélérable et passable": 7,
+    "menu": 1,
+    "clavier": 6,
+    "liens et boutons": 6,
+    "liens profonds": 10,
+    "liens vers la page en cours": 5,
+    "changements de hauteur": 5,
+    "parcours du projet": 1,
+    "tient dans l’écran": 10,
+    "films des épinglages": 2,
+    "fluidité": 10,
+    "défilement selon l’appareil": 5,
+    "mouvement": 10,
+    "effets du plan": 6,
+    "souris immobile": 5,
+    "vitesse": 5,
+    "captures": 1
+  },
+  "infos": [
+    "Numéro de version des fichiers : ?v=1",
+    "Journal v1 : 5 étape(s) notée(s), 77 min de travail pour 115 min de budget, 8 min d’attente de l’utilisateur.",
+    "Audit standard : étapes lourdes sur /, /contact, /logos-sites, /packaging, /print.",
+    "Accessibilité : axe-core 4.12.1 en plus des contrôles intégrés.",
+    "Ouverture / (1366×768) : 2776 ms depuis le premier octet",
+    "Ouverture /contact (1366×768) : 2633 ms depuis le premier octet",
+    "Ouverture /logos-sites (1366×768) : 2807 ms depuis le premier octet",
+    "film de l'ouverture /logos-sites 1366×768 : réussi à la tentative 3 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /packaging (1366×768) : 2671 ms depuis le premier octet",
+    "Ouverture /print (1366×768) : 2655 ms depuis le premier octet",
+    "Ouverture / (390×844) : 2716 ms depuis le premier octet",
+    "Ouverture /contact (390×844) : 2558 ms depuis le premier octet",
+    "film de l'ouverture /contact 390×844 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Ouverture /logos-sites (390×844) : 2698 ms depuis le premier octet",
+    "Ouverture /packaging (390×844) : 2601 ms depuis le premier octet",
+    "Ouverture /print (390×844) : 2607 ms depuis le premier octet",
+    "bords de l’écran / 1920×1080 : réussi à la tentative 2 (avant : cdpSession.send: Protocol error (Page.startScreencast): Not attached to an active page)",
+    "Bords de l’écran : 462 images d’intro, 16 de voile et 132 de menu jugées (panneau immobile couvrant tout l’écran), barre de défilement classique de 15 px.",
+    "Tient dans l'écran /contact : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /packaging : aucune section épinglée ou plein écran.",
+    "Tient dans l'écran /print : aucune section épinglée ou plein écran.",
+    "Fluidité / 1366×768 (molette) : 0 % d'images lentes sur 480, tâche la plus longue 0 ms",
+    "Fluidité /contact 1366×768 (molette) : 0 % d'images lentes sur 127, tâche la plus longue 0 ms",
+    "Fluidité /logos-sites 1366×768 (molette) : 1 % d'images lentes sur 347, tâche la plus longue 0 ms",
+    "Fluidité /packaging 1366×768 (molette) : 0 % d'images lentes sur 275, tâche la plus longue 0 ms",
+    "Fluidité /print 1366×768 (molette) : 0 % d'images lentes sur 273, tâche la plus longue 0 ms",
+    "Fluidité / 390×844 (doigt) : 0 % d'images lentes sur 1415, tâche la plus longue 0 ms",
+    "Fluidité /contact 390×844 (doigt) : 0 % d'images lentes sur 1336, tâche la plus longue 0 ms",
+    "Fluidité /logos-sites 390×844 (doigt) : 0 % d'images lentes sur 1337, tâche la plus longue 0 ms",
+    "Fluidité /packaging 390×844 (doigt) : 0 % d'images lentes sur 1335, tâche la plus longue 0 ms",
+    "Fluidité /print 390×844 (doigt) : 0 % d'images lentes sur 1337, tâche la plus longue 0 ms",
+    "Vitesse / : 0.65 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /contact : 0.39 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /logos-sites : 0.52 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /packaging : 0.51 s de calcul au chargement (téléphone ralenti).",
+    "Vitesse /print : 0.56 s de calcul au chargement (téléphone ralenti)."
+  ],
+  "grille": [
+    {
+      "cle": "manipuler",
+      "nom": "1. L’effet signature se manipule",
+      "statut": "absent",
+      "detail": "aucun data-grille=\"manipuler\" sur l’accueil"
+    },
+    {
+      "cle": "intro",
+      "nom": "2. L’intro devient la page",
+      "statut": "présent",
+      "detail": "objet d’ouverture sur 5 page(s), versObjet dans l’intro"
+    },
+    {
+      "cle": "voile",
+      "nom": "3. La transition reprend le motif",
+      "statut": "présent",
+      "detail": "voile en rideau"
+    },
+    {
+      "cle": "fil",
+      "nom": "4. Quelque chose relie les sections et les pages",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "typo",
+      "nom": "5. Un titre fait l’événement sur chaque page",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    },
+    {
+      "cle": "scene",
+      "nom": "6. La scène est un geste du métier",
+      "statut": "à regarder",
+      "detail": "galerie générique sur /, /logos-sites"
+    },
+    {
+      "cle": "retour",
+      "nom": "7. L’action principale a un retour physique",
+      "statut": "absent",
+      "detail": "sur aucune page"
+    }
+  ]
+}

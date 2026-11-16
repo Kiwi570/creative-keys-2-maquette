@@ -1,0 +1,311 @@
+{
+  "commun": {
+    "navigation": "Navigation principale",
+    "menu": "Menu",
+    "fermer": "Fermer",
+    "langueAutre": "English version",
+    "actionEntete": "Demander un devis",
+    "appeler": "Appeler",
+    "sommaire": "Le site",
+    "suivre": "Suivre",
+    "retourHaut": "Retour en haut",
+    "maquette": "Maquette de démonstration : formulaire simulé, rien n'est envoyé.",
+    "legal": "Mentions légales · Politique de confidentialité : à compléter",
+    "evitement": "Aller au contenu",
+    "mentionIa": "Illustration générée",
+    "pause": "Pause",
+    "lecture": "Lecture",
+    "introLigne": "Packaging · Print · Logos · Web",
+    "pied": "Graphiste indépendant, packaging, imprimés, logos et sites web.",
+    "nouvelOnglet": "(nouvel onglet)",
+    "voir": "Voir en grand",
+    "precedent": "Réalisation précédente",
+    "suivant": "Réalisation suivante",
+    "visionneuse": "Visionneuse des réalisations",
+    "glisser": "Faites glisser",
+    "graphiste": "Avis publiés sur Graphiste.com"
+  },
+  "pages": {
+    "accueil": {
+      "titre": "Creative Keys : graphiste packaging, print, logos et sites à Paris",
+      "description": "Thierry Poincet, graphiste indépendant depuis 30 ans : packagings, imprimés et PLV, logos et sites web. Habillez votre marque et démarquez-vous de la concurrence.",
+      "nav": "Accueil",
+      "partageAlt": "Creative Keys : trois tablettes de chocolat dont Thierry a créé le packaging",
+      "accroche": "Habillez votre marque. Démarquez-vous."
+    },
+    "packaging": {
+      "titre": "Packaging : vos emballages m'emballent · Creative Keys",
+      "description": "Gammes de packagings alimentaires, boissons, santé et animaux : 24 réalisations de Thierry Poincet, de l'étui au mockup 3D.",
+      "nav": "Packaging",
+      "partageAlt": "Gamme de bières du Larzac habillée par Creative Keys",
+      "accroche": "Vos emballages m'emballent"
+    },
+    "print": {
+      "titre": "Print et PLV : vos marques m'impressionnent · Creative Keys",
+      "description": "Affiches, annonces presse, plaquettes, menus, calendriers, kakémonos et coffrets conçus par Creative Keys.",
+      "nav": "Print & PLV",
+      "partageAlt": "Affiche des madeleines Maison Erté conçue par Creative Keys",
+      "accroche": "Vos marques m'impressionnent"
+    },
+    "logos-sites": {
+      "titre": "Logos et sites web : à vos marques, prêts, partez · Creative Keys",
+      "description": "Logos de marques, de commerces et d'associations, et sites vitrines conçus par Creative Keys.",
+      "nav": "Logos & sites",
+      "partageAlt": "Logo Maison Erté créé par Creative Keys",
+      "accroche": "À vos marques… prêts ? Partez !"
+    },
+    "contact": {
+      "titre": "Contact et devis · Creative Keys",
+      "description": "Un packaging, un imprimé, un logo ou un site ? Décrivez votre projet en trois étapes ou appelez Thierry au 06 75 01 45 60.",
+      "nav": "Contact",
+      "partageAlt": "Carnet de croquis de logos sur un bureau",
+      "accroche": "Parlons de votre marque"
+    },
+    "404": {
+      "titre": "Rupture de stock · Creative Keys",
+      "description": "Cette page n'existe pas ou plus.",
+      "nav": "Page introuvable",
+      "partageAlt": "Rayon de magasin vide",
+      "accroche": "Rupture de stock"
+    }
+  },
+  "accueil": {
+    "hero": {
+      "surtitre": "Creative Keys · graphiste packaging",
+      "titre1": "Habillez",
+      "titre2": "votre marque.",
+      "titre3": "Démarquez-vous.",
+      "texte": "Packagings, imprimés, logos et sites : Thierry conçoit ce qui fait reconnaître une marque, du logo jusqu'au rayon.",
+      "action": "Demander un devis",
+      "action2": "Voir les packagings",
+      "info": "30 ans de packaging · Paris et périphérie",
+      "etiquette": "Chocolat 60 % · packaging",
+      "rayons": "Rayons de packagings créés par Creative Keys",
+      "pause": "Mettre en pause les rayons qui défilent"
+    },
+    "studio": {
+      "surtitre": "Le studio",
+      "titre1": "30 ans à",
+      "titre2": "habiller",
+      "titre3": "des marques",
+      "texte": "Creative Keys, c'est Thierry Poincet, graphiste indépendant à Paris et en périphérie. Packaging, création de marque, PLV, presse et suivi de fabrication : il prend une marque au logo et la suit jusqu'au linéaire.",
+      "c1": "ans d'expérience",
+      "c2": "réalisations publiées sur Graphiste.com",
+      "c3": "métiers : packaging, print, logo, web"
+    },
+    "magasin": {
+      "mot1": "Jusqu'au",
+      "mot2": "rayon",
+      "legende": "Kakémono Maison Erté, dans l'allée d'un supermarché."
+    },
+    "gondole": {
+      "surtitre": "Packaging",
+      "titre": "Vos emballages",
+      "mot": "m'emballent",
+      "texte": "Biscuits, chocolat, bière, nectar, conserves ou pâtées : chaque gamme a son facing, pour sortir du lot en linéaire.",
+      "lien": "Les 24 packagings",
+      "region": "Galerie de packagings, défilement horizontal"
+    },
+    "metiers": {
+      "surtitre": "Quatre métiers",
+      "titre": "Une seule main,",
+      "mot": "du logo au site",
+      "packaging": "Gammes, étuis, sachets, coffrets, étiquettes, mockups 3D et mises en ambiance.",
+      "print": "Affiches, annonces presse, plaquettes, menus, calendriers, kakémonos et stands.",
+      "logos": "Logos de biscuiteries, d'instituts de beauté, de commerces et d'associations.",
+      "web": "Sites vitrines de biscuiteries, de pâtisseries, d'instituts et de créateurs.",
+      "t-packaging": "Vos emballages m'emballent",
+      "t-print": "Vos marques m'impressionnent",
+      "t-logos": "À vos marques… prêts ? Partez !",
+      "t-web": "Profitez-en pour faire du lèche-vitrine",
+      "n-packaging": "Packaging",
+      "n-print": "Print & PLV",
+      "n-logos": "Logos",
+      "n-web": "Sites web"
+    },
+    "etapes": {
+      "surtitre": "Ce que Thierry prend en charge",
+      "titre": "Du logo",
+      "mot": "au linéaire",
+      "texte": "Six étapes, toutes tirées de ses réalisations publiées.",
+      "e1": "La marque",
+      "d1": "Nom en lettres, logo et couleurs : Maison Erté, Day Fruits, Diosa.",
+      "e2": "La gamme",
+      "d2": "Un packaging par parfum ou par format : Erté en 250 et 300 g, saumon fumé en quatre formats.",
+      "e3": "Le mockup et l'ambiance",
+      "d3": "Rendus en 3D et mises en ambiance pour présenter le produit : Rochers Coco, Cookie Dough.",
+      "e4": "L'exécution",
+      "d4": "Maquette et exécution de toute une gamme, fichiers prêts pour l'imprimeur.",
+      "e5": "La PLV et le stand",
+      "d5": "Kakémonos, présentoirs de comptoir, stands de dégustation : Erté, Plaisir, Veinavital.",
+      "e6": "Et la suite",
+      "d6": "Annonces presse, plaquettes, menus et site web, pour faire vivre la marque."
+    },
+    "print": {
+      "surtitre": "Print & PLV",
+      "titre": "Vos marques",
+      "mot": "m'impressionnent",
+      "texte": "Affiches, annonces, plaquettes, menus, calendriers et kakémonos : le même soin que pour le packaging, jusqu'au papier.",
+      "lien": "Tout le print"
+    },
+    "logos": {
+      "surtitre": "Logos",
+      "titre": "À vos marques… prêts ?",
+      "mot": "Partez !",
+      "texte": "Biscuiterie, institut de beauté, barbier, camp dans le désert : chaque logo part de ce que fait la marque.",
+      "lien": "Logos et sites"
+    },
+    "avis": {
+      "surtitre": "Ils en parlent",
+      "titre": "Ce qu'en disent",
+      "mot": "ses clients"
+    },
+    "fin": {
+      "titre": "Votre produit mérite",
+      "mot": "son facing.",
+      "texte": "Un packaging, une gamme, une affiche ou un logo à créer ? Décrivez votre projet en trois étapes, Thierry vous rappelle.",
+      "action": "Demander un devis",
+      "appel": "06 75 01 45 60",
+      "geants1": "Emballer · Imprimer · Marquer · Mettre en vitrine ·",
+      "geants2": "Démarquez-vous · Habillez votre marque ·"
+    }
+  },
+  "packaging": {
+    "surtitre": "Packaging · 24 réalisations",
+    "titre1": "Vos emballages",
+    "titre2": "m'emballent",
+    "texte": "Des gammes entières pour l'épicerie, les boissons, la santé et les animaux : étuis, sachets, coffrets, étiquettes, puis le mockup et l'ambiance qui les présentent.",
+    "action": "Demander un devis packaging",
+    "info": "Du logo de la marque au présentoir de comptoir",
+    "mur": "Mur de packagings créés par Creative Keys",
+    "galerie": {
+      "titre": "En rayon",
+      "texte": "Choisissez un univers, puis touchez une réalisation pour la voir en grand.",
+      "tout": "Tout",
+      "filtres": "Filtrer par univers",
+      "compte": "réalisations"
+    },
+    "inclus": {
+      "surtitre": "Un packaging Creative Keys",
+      "titre": "Plus qu'un joli",
+      "mot": "carton",
+      "i1": "Le nom et le logo, si la marque n'en a pas encore",
+      "i2": "Une gamme cohérente, déclinée par parfum ou par format",
+      "i3": "Le mockup 3D et l'ambiance pour présenter le produit",
+      "i4": "La maquette et l'exécution pour l'imprimeur",
+      "i5": "La PLV qui va avec : kakémono, présentoir, stand"
+    },
+    "fin": {
+      "titre": "Un produit à lancer",
+      "mot": "en rayon ?",
+      "texte": "Racontez-le à Thierry : produit, gamme, formats, délai.",
+      "action": "Demander un devis packaging"
+    }
+  },
+  "print": {
+    "surtitre": "Print & PLV · 19 réalisations",
+    "titre1": "Vos marques",
+    "titre2": "m'impressionnent",
+    "texte": "Affiches et annonces presse, plaquettes, menus, calendriers, kakémonos et coffrets : tout ce qui s'imprime autour d'une marque.",
+    "action": "Demander un devis print",
+    "info": "Du dépliant 4 pages au stand de dégustation",
+    "sections": {
+      "affiches": "Des affiches qui donnent envie, des annonces qui se découpent.",
+      "plaquettes": "Plaquettes, brochures et flyers pour présenter une offre.",
+      "plv": "Ce qui se voit en magasin : kakémonos, coffrets, présentoirs.",
+      "editions": "Menus de restaurant et calendriers de l'Avent."
+    },
+    "bat": {
+      "surtitre": "Jusqu'à l'imprimeur",
+      "titre": "Du fichier",
+      "mot": "à la pile",
+      "texte": "Maquette, exécution, fichiers prêts à imprimer : Thierry suit le projet jusqu'à la fabrication, comme il le fait pour ses packagings."
+    },
+    "fin": {
+      "titre": "Une affiche, un menu,",
+      "mot": "un stand ?",
+      "texte": "Dites ce qu'il faut imprimer et pour quand.",
+      "action": "Demander un devis print"
+    }
+  },
+  "logos": {
+    "surtitre": "Logos & sites",
+    "trois": "3",
+    "deux": "2",
+    "un": "1",
+    "titre1": "À vos marques…",
+    "titre2": "prêts ?",
+    "titre3": "Partez !",
+    "texte": "Des logos pour des biscuiteries, des instituts de beauté, des commerces et des associations, puis les sites qui les mettent en vitrine.",
+    "action": "Demander un logo ou un site",
+    "info": "14 logos · 8 sites web",
+    "mur": {
+      "titre": "Sur la ligne",
+      "mot": "de départ",
+      "texte": "Quatorze logos, du monogramme doré au lettrage de transporteur."
+    },
+    "vitrine": {
+      "surtitre": "Sites web",
+      "titre": "Profitez-en pour faire",
+      "mot": "du lèche-vitrine",
+      "texte": "Huit sites vitrines, pensés pour l'ordinateur et le téléphone.",
+      "region": "Galerie des sites web, défilement horizontal"
+    },
+    "fin": {
+      "titre": "Votre marque est",
+      "mot": "dans les starting-blocks ?",
+      "texte": "Logo à créer, à moderniser, ou site à mettre en ligne : décrivez votre projet.",
+      "action": "Demander un logo ou un site"
+    }
+  },
+  "contact": {
+    "surtitre": "Contact et devis",
+    "titre1": "Parlons de",
+    "titre2": "votre marque",
+    "texte": "Trois étapes pour décrire votre projet, ou un coup de fil à Thierry.",
+    "info": "Réponse par Thierry, graphiste depuis 30 ans",
+    "etapes": "Étape {n} sur 3",
+    "e1": "Votre projet",
+    "e2": "Les détails",
+    "e3": "Vos coordonnées",
+    "projet": "Qu'avez-vous à habiller ?",
+    "p-packaging": "Un packaging ou une gamme",
+    "p-print": "Un imprimé ou de la PLV",
+    "p-logo": "Un logo",
+    "p-site": "Un site web",
+    "p-autre": "Autre chose",
+    "description": "Décrivez-le en quelques lignes",
+    "descriptionAide": "Produit, nombre de références, formats, ce qui existe déjà…",
+    "delai": "Pour quand ?",
+    "d-urgent": "Dès que possible",
+    "d-mois": "Dans le mois",
+    "d-trimestre": "Dans les trois mois",
+    "d-libre": "Pas de date fixée",
+    "nom": "Nom et prénom",
+    "entreprise": "Marque ou entreprise",
+    "email": "E-mail",
+    "telephone": "Téléphone",
+    "suivant": "Suivant",
+    "precedent": "Retour",
+    "envoyer": "Envoyer la demande",
+    "recap": "Votre demande",
+    "recapVide": "Choisissez un projet pour commencer.",
+    "donnees": "Vos coordonnées servent seulement à répondre à votre demande.",
+    "confidentialite": "Politique de confidentialité : à compléter.",
+    "envoye": "Demande simulée : rien n'a été envoyé. Sur le site final, elle arrivera chez Thierry.",
+    "direct": "Sans formulaire",
+    "appeler": "Appeler Thierry",
+    "ecrire": "Écrire un e-mail",
+    "zone": "Paris et périphérie",
+    "reseaux": "Ses réalisations au fil de l'eau"
+  },
+  "p404": {
+    "surtitre": "Erreur 404",
+    "titre1": "Rupture",
+    "titre2": "de stock",
+    "texte": "Cette page n'est plus en rayon. Les packagings, eux, sont toujours là.",
+    "accueil": "Retour à l'accueil",
+    "packaging": "Voir les packagings",
+    "info": "24 packagings toujours en rayon"
+  }
+}

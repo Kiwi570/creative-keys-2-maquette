@@ -1,0 +1,23 @@
+{
+ "nom": "A · En rayon",
+ "client": "creative-keys",
+ "ambiance": "bright, crisp and playful studio",
+ "palette": "cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue",
+ "lumiere": "soft even daylight from a large window on the left",
+ "matieres": "matte white card stock, folded cardboard, printed proofs and smooth grey surfaces",
+ "saison": "a bright winter morning",
+ "lieu": "a bright, calm interior",
+ "sujet": "a graphic designer's work table",
+ "fonds": {
+  "fond": "#EDECE8",
+  "carte": "#FFFFFF",
+  "encre": "#121212",
+  "accent": "#2B3CF0",
+  "etiquette": "#FFE14A"
+ },
+ "polices": {
+  "titres": "Bricolage Grotesque",
+  "mot": "Instrument Serif italique",
+  "texte": "Instrument Sans"
+ }
+}

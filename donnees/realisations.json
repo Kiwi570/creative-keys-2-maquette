@@ -1,0 +1,600 @@
+{
+ "univers": [
+  {
+   "cle": "sucre",
+   "nom": "Sucré"
+  },
+  {
+   "cle": "sale",
+   "nom": "Salé et frais"
+  },
+  {
+   "cle": "boissons",
+   "nom": "Boissons"
+  },
+  {
+   "cle": "sante",
+   "nom": "Santé et beauté"
+  },
+  {
+   "cle": "animaux",
+   "nom": "Animaux"
+  }
+ ],
+ "categoriesPrint": [
+  {
+   "cle": "affiches",
+   "nom": "Affiches et presse"
+  },
+  {
+   "cle": "plaquettes",
+   "nom": "Plaquettes et dépliants"
+  },
+  {
+   "cle": "plv",
+   "nom": "PLV et stands"
+  },
+  {
+   "cle": "editions",
+   "nom": "Menus et calendriers"
+  }
+ ],
+ "packaging": [
+  {
+   "id": "chocolat60",
+   "image": "pk-chocolat60",
+   "marque": "Chocolat 60 %",
+   "produit": "Gamme de tablettes aux fruits",
+   "univers": "sucre",
+   "alt": "Trois tablettes de chocolat 60 % cacao aux fruits, orange, rose et vert"
+  },
+  {
+   "id": "larzac",
+   "image": "pk-larzac",
+   "marque": "Bières du Larzac",
+   "produit": "Gamme d’étiquettes",
+   "univers": "boissons",
+   "alt": "Gamme de bières du Larzac : six bouteilles aux étiquettes de couleurs différentes"
+  },
+  {
+   "id": "erte-sachets",
+   "image": "pk-erte-sachets",
+   "marque": "Maison Erté",
+   "produit": "Madeleines, mini cakes, rochers coco",
+   "univers": "sucre",
+   "alt": "Gamme de sachets Maison Erté : madeleines, mini cakes, rochers coco, petits bouchons"
+  },
+  {
+   "id": "diosa",
+   "image": "pk-diosa",
+   "marque": "Diosa",
+   "produit": "Nectars en brique",
+   "univers": "boissons",
+   "alt": "Briques de nectar Diosa à la mangue, à l’ananas et à l’orange, fruits frais autour"
+  },
+  {
+   "id": "dayfruits",
+   "image": "pk-dayfruits",
+   "marque": "Day Fruits",
+   "produit": "Fruits croquants",
+   "univers": "sucre",
+   "alt": "Gamme de six sachets de fruits croquants Day Fruits : pomme, framboise, ananas, fraise, banane, mangue"
+  },
+  {
+   "id": "brownies",
+   "image": "pk-brownies",
+   "marque": "Maison Erté",
+   "produit": "Brownies Pocket",
+   "univers": "sucre",
+   "alt": "Étui et barres Brownies Pocket de Maison Erté, rayures chocolat sur fond jaune"
+  },
+  {
+   "id": "macaron",
+   "image": "pk-macaron",
+   "marque": "Tiliz",
+   "produit": "Macaron crème glacée",
+   "univers": "sucre",
+   "alt": "Étui Macaron crème glacée vanille de Tiliz, macarons au chocolat posés devant"
+  },
+  {
+   "id": "tortillas",
+   "image": "pk-tortillas",
+   "marque": "Kash",
+   "produit": "Tortillas chips",
+   "univers": "sale",
+   "alt": "Gamme de sachets de tortillas chips Kash sur fond jaune et orange"
+  },
+  {
+   "id": "confitures",
+   "image": "pk-confitures",
+   "marque": "Confitures",
+   "produit": "Gamme de pots",
+   "univers": "sucre",
+   "alt": "Gamme de pots de confiture aux étiquettes noires et rouges, sur deux rangs"
+  },
+  {
+   "id": "togolais",
+   "image": "pk-togolais",
+   "marque": "Togolais",
+   "produit": "Mini biscuits",
+   "univers": "sucre",
+   "alt": "Quatre sachets de mini biscuits Togolais de la biscuiterie Enougan"
+  },
+  {
+   "id": "saumon",
+   "image": "pk-saumon",
+   "marque": "Saumon fumé",
+   "produit": "Sachet et ambiance",
+   "univers": "sale",
+   "alt": "Sachet de saumon fumé à côté de tartines de saumon"
+  },
+  {
+   "id": "cookie",
+   "image": "pk-cookie",
+   "marque": "Tiliz",
+   "produit": "Cookie Dough glacé",
+   "univers": "sucre",
+   "alt": "Pot de glace Cookie Dough de Tiliz sur fond rose, fraises et pépites de chocolat"
+  },
+  {
+   "id": "versailles",
+   "image": "pk-versailles",
+   "marque": "Chocolats de Versailles",
+   "produit": "Tablettes",
+   "univers": "sucre",
+   "alt": "Tablettes Chocolats de Versailles, étuis orange et noir"
+  },
+  {
+   "id": "haricots",
+   "image": "pk-haricots",
+   "marque": "Mon Potager Frais",
+   "produit": "Haricots verts",
+   "univers": "sale",
+   "alt": "Sachet de haricots verts extra-fins Mon Potager Frais, haricots frais autour"
+  },
+  {
+   "id": "cartilamine",
+   "image": "pk-cartilamine",
+   "marque": "Cartilamine Phyto",
+   "produit": "Pot et étui",
+   "univers": "sante",
+   "alt": "Pot et étui Cartilamine Phyto, mobilité et articulations, sur fond bleu nuit"
+  },
+  {
+   "id": "miel",
+   "image": "pk-miel",
+   "marque": "Miel de France",
+   "produit": "Pots",
+   "univers": "sucre",
+   "alt": "Pots de miel de France posés sur une table de petit-déjeuner, champ de lavande en fond"
+  },
+  {
+   "id": "coffret-fruits",
+   "image": "pk-coffret-fruits",
+   "marque": "Rand Fruits",
+   "produit": "Coffrets de fruits séchés",
+   "univers": "sucre",
+   "alt": "Coffrets de sachets de fruits séchés Rand Fruits sur fond bleu"
+  },
+  {
+   "id": "tablettes",
+   "image": "pk-tablettes",
+   "marque": "Chocolat",
+   "produit": "Tablettes 35, 60 et 80 %",
+   "univers": "sucre",
+   "alt": "Tablettes de chocolat 35 %, 60 % et 80 % cacao, étuis blanc, argent et brun"
+  },
+  {
+   "id": "huile",
+   "image": "pk-huile",
+   "marque": "Huile d’olive",
+   "produit": "Bouteilles",
+   "univers": "sale",
+   "alt": "Bouteilles d’huile d’olive vierge extra, l’une suspendue comme une enseigne en forêt"
+  },
+  {
+   "id": "veinavital",
+   "image": "pk-veinavital",
+   "marque": "Veinavital",
+   "produit": "Présentoir de comptoir",
+   "univers": "sante",
+   "alt": "Présentoir de comptoir Veinavital tenu par une pharmacienne, logo du laboratoire Vital Santé"
+  },
+  {
+   "id": "protein",
+   "image": "pk-protein",
+   "marque": "Protéine et maca",
+   "produit": "Sachets",
+   "univers": "sante",
+   "alt": "Sachets de protéine végane et de maca bio en poudre"
+  },
+  {
+   "id": "maisoncafe",
+   "image": "pk-maisoncafe",
+   "marque": "Maison du Café",
+   "produit": "Ma Tradition, offre 3 + 1",
+   "univers": "boissons",
+   "alt": "Paquet de café Ma Tradition de Maison du Café, offre trois plus un"
+  },
+  {
+   "id": "ourson",
+   "image": "pk-ourson",
+   "marque": "Ourson et Mi-Cho-Ko",
+   "produit": "Pâtes à tartiner",
+   "univers": "sucre",
+   "alt": "Pots de pâte à tartiner Ourson et Mi-Cho-Ko"
+  },
+  {
+   "id": "plaisir",
+   "image": "pk-plaisir",
+   "marque": "Plaisir",
+   "produit": "Pâtées pour chiens et chats",
+   "univers": "animaux",
+   "alt": "Quatre sachets de pâtée Plaisir pour chiens et chats"
+  }
+ ],
+ "print": [
+  {
+   "id": "lor-sublime",
+   "image": "pr-lor-sublime",
+   "marque": "L’Or",
+   "produit": "Affiches",
+   "univers": "affiches",
+   "alt": "Affiches L’Or « Goûtez au sublime » et « Puissant et rond », noir et or"
+  },
+  {
+   "id": "calendrier-plaisir",
+   "image": "pr-calendrier-plaisir",
+   "marque": "Les Repas Plaisir",
+   "produit": "Calendrier de l’Avent",
+   "univers": "editions",
+   "alt": "Calendrier de l’Avent Les Repas Plaisir, cases illustrées, chiens et chats sous la neige"
+  },
+  {
+   "id": "madeleines",
+   "image": "pr-madeleines",
+   "marque": "Maison Erté",
+   "produit": "Affiche madeleines",
+   "univers": "affiches",
+   "alt": "Affiche Maison Erté : « La plus délicieuse des madeleines… c’est elle ! »"
+  },
+  {
+   "id": "mystic",
+   "image": "pr-mystic",
+   "marque": "Mystic Spear",
+   "produit": "Affiche",
+   "univers": "affiches",
+   "alt": "Affiche Mystic Spear : flèches et arc sur fond noir, lettrage or et rouge"
+  },
+  {
+   "id": "smile",
+   "image": "pr-smile",
+   "marque": "Smile",
+   "produit": "Plaquette",
+   "univers": "plaquettes",
+   "alt": "Plaquette Smile, recto et verso, bleu et blanc"
+  },
+  {
+   "id": "aysh",
+   "image": "pr-aysh",
+   "marque": "Aysh Glamm",
+   "produit": "Visuels de maquilleuse",
+   "univers": "affiches",
+   "alt": "Visuels Aysh Glamm, maquilleuse : portraits maquillés et palette noire"
+  },
+  {
+   "id": "rollup-erte",
+   "image": "pr-rollup-erte",
+   "marque": "Maison Erté",
+   "produit": "Kakémono en magasin",
+   "univers": "plv",
+   "alt": "Kakémono Maison Erté dans l’allée d’un supermarché, clients flous autour"
+  },
+  {
+   "id": "rollup-plaisir",
+   "image": "pr-rollup-plaisir",
+   "marque": "Plaisir",
+   "produit": "Kakémono",
+   "univers": "plv",
+   "alt": "Kakémono Plaisir, chien et chat, devant un mur au motif de la marque"
+  },
+  {
+   "id": "brazil",
+   "image": "pr-brazil",
+   "marque": "Maison du Café",
+   "produit": "Coffrets Brazil",
+   "univers": "plv",
+   "alt": "Coffrets de café Brazil de Maison du Café, rouge et noir"
+  },
+  {
+   "id": "chalosse",
+   "image": "pr-chalosse",
+   "marque": "La Ferme de Chalosse",
+   "produit": "Menu de restaurant",
+   "univers": "editions",
+   "alt": "Menu de La Ferme de Chalosse, couverture brune et pages intérieures"
+  },
+  {
+   "id": "sushi",
+   "image": "pr-sushi",
+   "marque": "Restaurant de sushis",
+   "produit": "Menus",
+   "univers": "editions",
+   "alt": "Quatre menus de restaurant de sushis"
+  },
+  {
+   "id": "executive",
+   "image": "pr-executive",
+   "marque": "Executive",
+   "produit": "Plaquette",
+   "univers": "plaquettes",
+   "alt": "Plaquette Executive ouverte, pages noires et portraits"
+  },
+  {
+   "id": "novalyo",
+   "image": "pr-novalyo",
+   "marque": "Novalyo",
+   "produit": "Brochure",
+   "univers": "plaquettes",
+   "alt": "Brochure Novalyo ouverte, carte et schémas"
+  },
+  {
+   "id": "enougan",
+   "image": "pr-enougan",
+   "marque": "Enougan Bio",
+   "produit": "Dépliant",
+   "univers": "plaquettes",
+   "alt": "Dépliant de la biscuiterie Enougan Bio, gamme Togolais"
+  },
+  {
+   "id": "estheticenter",
+   "image": "pr-estheticenter",
+   "marque": "Esthéticenter",
+   "produit": "Flyer",
+   "univers": "plaquettes",
+   "alt": "Flyer Esthéticenter, soins du visage et épilation laser"
+  },
+  {
+   "id": "lor-coupons",
+   "image": "pr-lor-coupons",
+   "marque": "L’Or",
+   "produit": "Annonces et bons",
+   "univers": "affiches",
+   "alt": "Annonces et bons de réduction L’Or, noir et or"
+  },
+  {
+   "id": "lor-bio",
+   "image": "pr-lor-bio",
+   "marque": "L’Or Bio",
+   "produit": "Annonces et bons",
+   "univers": "affiches",
+   "alt": "Annonces et bons L’Or Bio et dosettes, vert et noir"
+  },
+  {
+   "id": "xlwines",
+   "image": "pr-xlwines",
+   "marque": "XL Wines",
+   "produit": "Visuel",
+   "univers": "affiches",
+   "alt": "Visuel XL Wines : bouteilles en cascade"
+  },
+  {
+   "id": "monblanc",
+   "image": "pr-monblanc",
+   "marque": "Recettes gourmandes",
+   "produit": "Page de presse",
+   "univers": "affiches",
+   "alt": "Page de recettes gourmandes Mont Blanc, mosaïque de desserts"
+  }
+ ],
+ "logos": [
+  {
+   "id": "erte",
+   "image": "lg-erte",
+   "marque": "Maison Erté",
+   "produit": "Biscuitiers depuis 1888",
+   "univers": "logos",
+   "alt": "Logo Maison Erté, biscuitiers de père en fils depuis 1888"
+  },
+  {
+   "id": "dayfruits",
+   "image": "lg-dayfruits",
+   "marque": "Day Fruits",
+   "produit": "Fruits croustillants",
+   "univers": "logos",
+   "alt": "Logo Day Fruits « C’est mon fruit croustillant »"
+  },
+  {
+   "id": "najat",
+   "image": "lg-najat",
+   "marque": "Najat Bary",
+   "produit": "Monogramme",
+   "univers": "logos",
+   "alt": "Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme"
+  },
+  {
+   "id": "pauline",
+   "image": "lg-pauline",
+   "marque": "La Vitrine de Pauline",
+   "produit": "Boutique",
+   "univers": "logos",
+   "alt": "Logo La Vitrine de Pauline, colibri et écriture violette"
+  },
+  {
+   "id": "togolais",
+   "image": "lg-togolais",
+   "marque": "Enougan Bio",
+   "produit": "Biscuiterie et gamme",
+   "univers": "logos",
+   "alt": "Logos Biscuiterie Enougan Bio et Mini Biscuits Togolais"
+  },
+  {
+   "id": "agafay",
+   "image": "lg-agafay",
+   "marque": "Le Royaume Agafay Camp",
+   "produit": "Camp dans le désert",
+   "univers": "logos",
+   "alt": "Logo Le Royaume Agafay Camp sur un paysage de désert"
+  },
+  {
+   "id": "celina",
+   "image": "lg-celina",
+   "marque": "Celina Paris",
+   "produit": "Identité",
+   "univers": "logos",
+   "alt": "Identité Celina Paris : vase et coussin aux motifs berbères"
+  },
+  {
+   "id": "emma",
+   "image": "lg-emma",
+   "marque": "Beauty Emma",
+   "produit": "Prothésiste ongulaire",
+   "univers": "logos",
+   "alt": "Logo Beauty Emma, prothésiste ongulaire, flacon de vernis et main"
+  },
+  {
+   "id": "barbershop",
+   "image": "lg-barbershop",
+   "marque": "Barber Shop",
+   "produit": "Coupes et rasages",
+   "univers": "logos",
+   "alt": "Deux logos Barber Shop, coupes de cheveux et rasages"
+  },
+  {
+   "id": "babyboss",
+   "image": "lg-babyboss",
+   "marque": "Baby Boss",
+   "produit": "Déclinaisons",
+   "univers": "logos",
+   "alt": "Déclinaisons du logo Baby Boss, « le boss c’est bébé »"
+  },
+  {
+   "id": "serenity",
+   "image": "lg-serenity",
+   "marque": "Sérénity Village",
+   "produit": "Habitat intergénération",
+   "univers": "logos",
+   "alt": "Deux versions du logo Sérénity Village, construction intergénération"
+  },
+  {
+   "id": "vache",
+   "image": "lg-vache",
+   "marque": "La Vache aux pieds nus",
+   "produit": "Logo et pots",
+   "univers": "logos",
+   "alt": "Logo La Vache aux pieds nus sur des pots de crème fraîche et de fromage frais"
+  },
+  {
+   "id": "transeurope",
+   "image": "lg-transeurope",
+   "marque": "Trans Europe 45",
+   "produit": "Lettrage",
+   "univers": "logos",
+   "alt": "Logo Trans Europe 45, lettrage rouge et gris"
+  },
+  {
+   "id": "action",
+   "image": "lg-action",
+   "marque": "Action dans le monde",
+   "produit": "Association",
+   "univers": "logos",
+   "alt": "Logo Action dans le monde, globe noir et jaune"
+  }
+ ],
+ "web": [
+  {
+   "id": "site-erte",
+   "image": "wb-erte",
+   "marque": "Maison Erté",
+   "produit": "Biscuiterie",
+   "univers": "web",
+   "alt": "Site de la biscuiterie Erté sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-longuet",
+   "image": "wb-longuet",
+   "marque": "Maison Longuet",
+   "produit": "Pâtisserie",
+   "univers": "web",
+   "alt": "Site Maison Longuet, crêpes et pâtisserie, sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-estheticenter",
+   "image": "wb-estheticenter",
+   "marque": "Esthéticenter",
+   "produit": "Institut de beauté",
+   "univers": "web",
+   "alt": "Site Esthéticenter sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-tahiti",
+   "image": "wb-tahiti",
+   "marque": "Tahiti Wrap",
+   "produit": "Covering automobile",
+   "univers": "web",
+   "alt": "Site Tahiti Wrap, covering automobile, sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-mymyb",
+   "image": "wb-mymyb",
+   "marque": "MyMy B",
+   "produit": "Bijoux",
+   "univers": "web",
+   "alt": "Site MyMy B, bijoux, sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-enougan",
+   "image": "wb-enougan",
+   "marque": "Enougan",
+   "produit": "Biscuiterie bio",
+   "univers": "web",
+   "alt": "Site de la biscuiterie Enougan sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-ladioss",
+   "image": "wb-ladioss",
+   "marque": "Ladioss",
+   "produit": "Produits alimentaires",
+   "univers": "web",
+   "alt": "Site Ladioss sur ordinateur et téléphone"
+  },
+  {
+   "id": "site-gottoshare",
+   "image": "wb-gottoshare",
+   "marque": "Got to Share",
+   "produit": "Association",
+   "univers": "web",
+   "alt": "Site Got to Share sur ordinateur et téléphone"
+  }
+ ],
+ "avis": [
+  {
+   "nom": "Tristan",
+   "qui": "TC entreprise",
+   "date": "février 2025",
+   "sujet": "Packagings d’une marque en lancement",
+   "citation": "C’est un réel plaisir de travailler avec lui."
+  },
+  {
+   "nom": "Nadia",
+   "qui": "My Executive Assistant",
+   "date": "novembre 2023",
+   "sujet": "Graphisme et imprimerie",
+   "citation": "Un excellent travail de qualité, livré dans les meilleurs délais."
+  },
+  {
+   "nom": "Mahamadou",
+   "qui": "FruitsTropicaux",
+   "date": "novembre 2023",
+   "sujet": "Logo, packaging et présentation produit",
+   "citation": "Particulièrement pour les commerçants qui cherchent à mettre en valeur leurs produits en rayon."
+  },
+  {
+   "nom": "Diane",
+   "qui": "Particulier",
+   "date": "novembre 2023",
+   "sujet": "Logo, carte de menu et communication",
+   "citation": "Au top, belle imagination et patience… rapidité d’exécution également !"
+  }
+ ]
+}

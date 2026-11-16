@@ -1,0 +1,62 @@
+{
+  "client": "Creative Keys",
+  "activite": "services-b2b",
+  "direction": "A · En rayon",
+  "date": "2026-11-16T13:24:15.295Z",
+  "images": [
+    {
+      "nom": "grok/atelier",
+      "fichier": "atelier.png",
+      "page": "accueil",
+      "emplacement": "Accueil : « 30 ans à habiller des marques », grande image à droite du texte",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Overhead flat lay of a graphic designer’s large pale grey work table seen from directly above: a flat white cardboard box dieline with fold lines, a fan of colour swatches, two printed colour proofs made only of abstract colour blocks with no letters, a steel ruler, a yellow cutter and a sharp pencil, everything neatly arranged on the right two thirds, the left third left empty and calm. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/imprimerie",
+      "fichier": "imprimerie.png",
+      "page": "print",
+      "emplacement": "Print & PLV : section « Jusqu’au BAT », grande image à gauche",
+      "role": "section-fond",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Conseillée",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "The delivery end of a large offset printing press in a clean print shop, neat stacks of freshly printed sheets covered with bright abstract colour blocks and die-cut box shapes, no letters or logos, warm practical lighting, a sharp stack in the foreground and the machine softly blurred behind, nobody. Landscape composition, aspect ratio 3:2, calm empty area in the right third of the frame for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/croquis",
+      "fichier": "croquis.png",
+      "page": "contact",
+      "emplacement": "Contact : ouverture, image à droite du formulaire",
+      "role": "ouverture",
+      "format": "3:2",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "scene-metier",
+      "pieges": [],
+      "consigne": "Overhead view of an open sketchbook on a light grey desk with pencil sketches of simple abstract logo shapes made only of circles, keys and arrows, absolutely no letters, three felt-tip markers in black, ultramarine blue and yellow, a white coffee cup partly out of frame, everything on the right half, the left half empty. Landscape composition, aspect ratio 3:2, generous empty space on the left third of the frame for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    },
+    {
+      "nom": "grok/rayon-vide",
+      "fichier": "rayon-vide.png",
+      "page": "404",
+      "emplacement": "Page 404 « Rupture de stock » : image d’ouverture",
+      "role": "404",
+      "format": "16:9",
+      "grok": "1168×784",
+      "priorite": "Indispensable",
+      "gabarit": "404",
+      "pieges": [
+        "texte parasite"
+      ],
+      "consigne": "A clean, completely empty supermarket shelf unit seen from the front: five long white metal shelves with nothing on them, only empty price label rails with no labels, soft even light, light grey floor, a gentle touch of humour from the total emptiness, no products, no packaging, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark."
+    }
+  ]
+}

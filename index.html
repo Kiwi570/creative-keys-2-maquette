@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Creative Keys : graphiste packaging, print, logos et sites à Paris</title>
+<meta name="description" content="Thierry Poincet, graphiste indépendant depuis 30 ans : packagings, imprimés et PLV, logos et sites web. Habillez votre marque et démarquez-vous de la concurrence.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creative-keys-2-maquette.vercel.app/">
+<style>:root{--fond:#EDECE8;--texte:#121212;--voile-fond:#121212;--ouverture-fond:#EDECE8;--menu-fond:#EDECE8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#EDECE8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Creative Keys">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Creative Keys : graphiste packaging, print, logos et sites à Paris">
+<meta property="og:description" content="Thierry Poincet, graphiste indépendant depuis 30 ans : packagings, imprimés et PLV, logos et sites web. Habillez votre marque et démarquez-vous de la concurrence.">
+<meta property="og:url" content="https://creative-keys-2-maquette.vercel.app/">
+<meta property="og:image" content="https://creative-keys-2-maquette.vercel.app/assets/partage/accueil-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Creative Keys : trois tablettes de chocolat dont Thierry a créé le packaging">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Creative Keys","url":"https://creative-keys-2-maquette.vercel.app/","telephone":"+33675014560","email":"t.creativekeys@orange.fr","founder":{"@type":"Person","name":"Thierry Poincet","jobTitle":"Graphiste"},"areaServed":"Paris et périphérie","knowsAbout":["Packaging","Création de marque","Logo","PLV","Plaquettes et affiches","Sites web"],"sameAs":["https://www.instagram.com/pfscreationdesign/","https://twitter.com/PFS_DiamantS","https://graphiste.com/thierrycreativekeys"],"description":"Graphiste indépendant : packaging, création de marque, PLV, imprimés et sites web, 30 ans d'expérience."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Creative Keys</span><span data-voile-libelle>Accueil</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-rayons"><div class="intro-etagere" style="--i:0"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:1"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-trou"></span><span class="intro-facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:2"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div></div>
+  <p class="ouverture-nom">Creative Keys</p>
+  <p class="ouverture-ligne">Packaging · Print · Logos · Web</p>
+  <img class="ouverture-objet" src="/assets/images/pk-chocolat60-detoure-480.webp" alt="" width="480" height="333" decoding="async" data-ouverture-objet>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil" aria-current="page">
+      <span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil" aria-current="page">Accueil</a></li><li style="--i:1"><a href="/packaging" class="menu-lien" data-libelle="Packaging">Packaging</a></li><li style="--i:2"><a href="/print" class="menu-lien" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li style="--i:3"><a href="/logos-sites" class="menu-lien" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33675014560">Appeler 06 75 01 45 60</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="hero" id="debut">
+  <div class="hero-rayons hero-rayons--haut" aria-hidden="true"><div class="rayon" data-rayon data-sens="1"><div class="rayon-piste" data-effet="lineaire"><span class="facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-ourson-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-maisoncafe-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-ourson-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-maisoncafe-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span></div><span class="rayon-etagere"></span></div></div>
+  <button type="button" class="rayons-pause" data-rayons-pause aria-pressed="false" aria-label="Mettre en pause les rayons qui défilent"><span aria-hidden="true">❚❚</span></button>
+  <div class="hero-grille conteneur">
+    <div class="hero-texte">
+      <p class="surtitre hero-surtitre masque-ecran-bas" data-anime="gsap">Creative Keys · graphiste packaging</p>
+      <h1 class="hero-titre" data-anime="gsap">
+        <span class="ligne-masque"><span class="hero-ligne">Habillez</span></span>
+        <span class="ligne-masque"><span class="hero-ligne">votre marque.</span></span>
+        <span class="ligne-masque"><em class="hero-ligne mot">Démarquez-vous.</em></span>
+      </h1>
+      <p class="hero-intro masque-ecran-tres-bas" data-anime="gsap">Packagings, imprimés, logos et sites : Thierry conçoit ce qui fait reconnaître une marque, du logo jusqu&#39;au rayon.</p>
+      <p class="hero-actions" data-anime="gsap">
+        <a href="/contact#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis</a>
+        <a href="/packaging" class="bouton bouton--contour masque-ecran-tres-bas" data-libelle="Packaging">Voir les packagings</a>
+      </p>
+      <p class="hero-info" data-info-cle data-anime="gsap">30 ans de packaging · Paris et périphérie</p>
+    </div>
+    <div class="hero-vedette">
+      <div class="vedette-objet" data-effet="vedette">
+        <span class="vedette-ombre" aria-hidden="true"></span>
+        <figure class="media vedette-media" data-iris-centre style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/pk-chocolat60-detoure-1200.webp" srcset="/assets/images/pk-chocolat60-detoure-480.webp 480w, /assets/images/pk-chocolat60-detoure-800.webp 800w, /assets/images/pk-chocolat60-detoure-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 40vw" alt="Trois tablettes de chocolat 60 % cacao, étuis orange, rose et vert" width="1200" height="832" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+      </div>
+      <p class="etiquette etiquette--grande hero-etiquette" data-anime="gsap"><strong>Chocolat 60 % · packaging</strong></p>
+    </div>
+  </div>
+  <div class="hero-rayons hero-rayons--bas" aria-hidden="true"><div class="rayon" data-rayon data-sens="-1"><div class="rayon-piste" data-effet="lineaire"><span class="facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span><span class="facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" loading="eager" decoding="async"></span></div><span class="rayon-etagere"></span></div></div>
+</section>
+<section class="studio" id="studio">
+  <div class="conteneur studio-grille">
+    <div class="studio-texte">
+      <p class="surtitre" data-anime>Le studio</p>
+      <h2 class="titre titre--xl" data-anime="lignes">30 ans à <em class="mot">habiller</em> des marques</h2>
+      <p class="texte-large" data-anime>Creative Keys, c&#39;est Thierry Poincet, graphiste indépendant à Paris et en périphérie. Packaging, création de marque, PLV, presse et suivi de fabrication : il prend une marque au logo et la suit jusqu&#39;au linéaire.</p>
+      <ul class="chiffres" data-anime="cascade">
+        <li><strong data-compteur="30">30</strong><span>ans d&#39;expérience</span></li>
+        <li><strong data-compteur="147">147</strong><span>réalisations publiées sur Graphiste.com</span></li>
+        <li><strong data-compteur="4">4</strong><span>métiers : packaging, print, logo, web</span></li>
+      </ul>
+    </div>
+    <figure class="media studio-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/grok/atelier-mobile-640.webp 640w, /assets/images/grok/atelier-mobile-1080.webp 1080w" sizes="(max-width: 760px) 100vw, 50vw">
+    <img src="/assets/images/grok/atelier-1280.webp" srcset="/assets/images/grok/atelier-640.webp 640w, /assets/images/grok/atelier-1280.webp 1280w, /assets/images/grok/atelier-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 50vw" alt="Table de graphiste vue de dessus : épreuves de couleur, patron de boîte en carton blanc, nuancier, règle et cutter" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+  </div>
+</section>
+<section class="magasin" id="en-magasin" style="--fx-longueur:200svh" data-fx="plein-ecran" data-fx-depart="inset(20% 37% 20% 37% round 18px)">
+  <div data-collant>
+    <figure class="media " data-fx-cible style="--cadrage:53% 45%;--cadrage-mobile:50% 43%">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/pr-rollup-erte-mobile-640.webp 640w, /assets/images/pr-rollup-erte-mobile-1080.webp 1080w" sizes="100vw">
+    <img src="/assets/images/pr-rollup-erte-1600.webp" srcset="/assets/images/pr-rollup-erte-480.webp 480w, /assets/images/pr-rollup-erte-800.webp 800w, /assets/images/pr-rollup-erte-1200.webp 1200w, /assets/images/pr-rollup-erte-1600.webp 1600w" sizes="100vw" alt="Kakémono Maison Erté dans l’allée d’un supermarché, clients flous autour" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    <p class="magasin-mots" aria-hidden="true"><span data-fx-ecarte="g">Jusqu&#39;au</span> <span data-fx-ecarte="d" class="mot">rayon</span></p>
+    <p class="magasin-legende" data-fx-apres><span class="etiquette"><strong>Maison Erté</strong> <span>Kakémono Maison Erté, dans l&#39;allée d&#39;un supermarché.</span></span></p>
+  </div>
+</section>
+<section class="gondole gondole--glisse" id="gondole" data-glisse>
+  <div class="conteneur gondole-tete">
+    <div><p class="surtitre" data-anime>Packaging</p>
+  <h2 class="titre " data-anime="lignes">Vos emballages <em class="mot">m&#39;emballent</em></h2></div>
+    <div class="gondole-intro">
+      <p class="masque-ecran-bas">Biscuits, chocolat, bière, nectar, conserves ou pâtées : chaque gamme a son facing, pour sortir du lot en linéaire.</p>
+      <a href="/packaging" class="bouton" data-libelle="Packaging">Les 24 packagings</a>
+    </div>
+  </div>
+  <div class="piste gondole-piste" data-galerie data-effet="gondole" tabindex="0" role="region" aria-label="Galerie de packagings, défilement horizontal">
+    <article class="carte-real carte-gondole" id="r-larzac" data-univers="boissons">
+  <figure class="media carte-real-media" style="--cadrage:49% 53%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pk-larzac-1200.webp" srcset="/assets/images/pk-larzac-480.webp 480w, /assets/images/pk-larzac-800.webp 800w, /assets/images/pk-larzac-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 34vw" alt="Gamme de bières du Larzac : six bouteilles aux étiquettes de couleurs différentes" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Bières du Larzac</strong> <span>Gamme d’étiquettes</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="larzac" data-grand="/assets/images/pk-larzac-1200.webp" data-alt="Gamme de bières du Larzac : six bouteilles aux étiquettes de couleurs différentes" data-titre="Bières du Larzac · Gamme d’étiquettes" aria-label="Voir en grand : Bières du Larzac, Gamme d’étiquettes"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole" id="r-diosa" data-univers="boissons">
+  <figure class="media carte-real-media" style="--cadrage:49% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pk-diosa-1200.webp" srcset="/assets/images/pk-diosa-480.webp 480w, /assets/images/pk-diosa-800.webp 800w, /assets/images/pk-diosa-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 34vw" alt="Briques de nectar Diosa à la mangue, à l’ananas et à l’orange, fruits frais autour" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Diosa</strong> <span>Nectars en brique</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="diosa" data-grand="/assets/images/pk-diosa-1200.webp" data-alt="Briques de nectar Diosa à la mangue, à l’ananas et à l’orange, fruits frais autour" data-titre="Diosa · Nectars en brique" aria-label="Voir en grand : Diosa, Nectars en brique"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole" id="r-erte-sachets" data-univers="sucre">
+  <figure class="media carte-real-media" style="--cadrage:49% 40%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pk-erte-sachets-1200.webp" srcset="/assets/images/pk-erte-sachets-480.webp 480w, /assets/images/pk-erte-sachets-800.webp 800w, /assets/images/pk-erte-sachets-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 34vw" alt="Gamme de sachets Maison Erté : madeleines, mini cakes, rochers coco, petits bouchons" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Erté</strong> <span>Madeleines, mini cakes, rochers coco</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="erte-sachets" data-grand="/assets/images/pk-erte-sachets-1200.webp" data-alt="Gamme de sachets Maison Erté : madeleines, mini cakes, rochers coco, petits bouchons" data-titre="Maison Erté · Madeleines, mini cakes, rochers coco" aria-label="Voir en grand : Maison Erté, Madeleines, mini cakes, rochers coco"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole" id="r-dayfruits" data-univers="logos">
+  <figure class="media carte-real-media" style="--cadrage:50% 51%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-dayfruits-800.webp" srcset="/assets/images/lg-dayfruits-480.webp 480w, /assets/images/lg-dayfruits-800.webp 800w" sizes="(max-width: 760px) 80vw, 34vw" alt="Logo Day Fruits « C’est mon fruit croustillant »" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Day Fruits</strong> <span>Fruits croustillants</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="dayfruits" data-grand="/assets/images/lg-dayfruits-800.webp" data-alt="Logo Day Fruits « C’est mon fruit croustillant »" data-titre="Day Fruits · Fruits croustillants" aria-label="Voir en grand : Day Fruits, Fruits croustillants"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole" id="r-saumon" data-univers="sale">
+  <figure class="media carte-real-media" style="--cadrage:52% 48%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pk-saumon-1200.webp" srcset="/assets/images/pk-saumon-480.webp 480w, /assets/images/pk-saumon-800.webp 800w, /assets/images/pk-saumon-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 34vw" alt="Sachet de saumon fumé à côté de tartines de saumon" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Saumon fumé</strong> <span>Sachet et ambiance</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="saumon" data-grand="/assets/images/pk-saumon-1200.webp" data-alt="Sachet de saumon fumé à côté de tartines de saumon" data-titre="Saumon fumé · Sachet et ambiance" aria-label="Voir en grand : Saumon fumé, Sachet et ambiance"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real carte-gondole" id="r-confitures" data-univers="sucre">
+  <figure class="media carte-real-media" style="--cadrage:46% 64%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pk-confitures-1200.webp" srcset="/assets/images/pk-confitures-480.webp 480w, /assets/images/pk-confitures-800.webp 800w, /assets/images/pk-confitures-1200.webp 1200w" sizes="(max-width: 760px) 80vw, 34vw" alt="Gamme de pots de confiture aux étiquettes noires et rouges, sur deux rangs" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Confitures</strong> <span>Gamme de pots</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="confitures" data-grand="/assets/images/pk-confitures-1200.webp" data-alt="Gamme de pots de confiture aux étiquettes noires et rouges, sur deux rangs" data-titre="Confitures · Gamme de pots" aria-label="Voir en grand : Confitures, Gamme de pots"><span aria-hidden="true">+</span></button>
+</article>
+  </div>
+</section>
+<section class="metiers" id="metiers">
+  <div class="conteneur">
+    <div class="tete-section"><p class="surtitre" data-anime>Quatre métiers</p>
+  <h2 class="titre " data-anime="lignes">Une seule main, <em class="mot">du logo au site</em></h2></div>
+    <ul class="metiers-grille" data-anime="cascade">
+      <li class="metier">
+        <a class="metier-lien" href="/packaging" data-libelle="Packaging">
+          <figure class="media metier-media" data-fx="zoom" style="--cadrage:50% 41%">
+  <picture>
+    <img src="/assets/images/pk-chocolat60-1200.webp" srcset="/assets/images/pk-chocolat60-480.webp 480w, /assets/images/pk-chocolat60-800.webp 800w, /assets/images/pk-chocolat60-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 25vw" alt="Trois tablettes de chocolat 60 % cacao aux fruits, orange, rose et vert" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="metier-nom">Packaging</span>
+          <strong class="metier-titre">Vos emballages m&#39;emballent</strong>
+          <span class="metier-texte">Gammes, étuis, sachets, coffrets, étiquettes, mockups 3D et mises en ambiance.</span>
+          <span class="metier-fleche" aria-hidden="true">→</span>
+        </a>
+      </li><li class="metier">
+        <a class="metier-lien" href="/print" data-libelle="Print &amp; PLV">
+          <figure class="media metier-media" data-fx="zoom" style="--cadrage:44% 43%">
+  <picture>
+    <img src="/assets/images/pr-calendrier-plaisir-1200.webp" srcset="/assets/images/pr-calendrier-plaisir-480.webp 480w, /assets/images/pr-calendrier-plaisir-800.webp 800w, /assets/images/pr-calendrier-plaisir-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 25vw" alt="Calendrier de l’Avent Les Repas Plaisir, cases illustrées, chiens et chats sous la neige" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="metier-nom">Print &amp; PLV</span>
+          <strong class="metier-titre">Vos marques m&#39;impressionnent</strong>
+          <span class="metier-texte">Affiches, annonces presse, plaquettes, menus, calendriers, kakémonos et stands.</span>
+          <span class="metier-fleche" aria-hidden="true">→</span>
+        </a>
+      </li><li class="metier">
+        <a class="metier-lien" href="/logos-sites#logos" data-libelle="Logos &amp; sites">
+          <figure class="media metier-media" data-fx="zoom" style="--cadrage:49% 42%">
+  <picture>
+    <img src="/assets/images/lg-erte-800.webp" srcset="/assets/images/lg-erte-480.webp 480w, /assets/images/lg-erte-800.webp 800w" sizes="(max-width: 760px) 90vw, 25vw" alt="Logo Maison Erté, biscuitiers de père en fils depuis 1888" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="metier-nom">Logos</span>
+          <strong class="metier-titre">À vos marques… prêts ? Partez !</strong>
+          <span class="metier-texte">Logos de biscuiteries, d&#39;instituts de beauté, de commerces et d&#39;associations.</span>
+          <span class="metier-fleche" aria-hidden="true">→</span>
+        </a>
+      </li><li class="metier">
+        <a class="metier-lien" href="/logos-sites#vitrine" data-libelle="Logos &amp; sites">
+          <figure class="media metier-media" data-fx="zoom" style="--cadrage:51% 46%">
+  <picture>
+    <img src="/assets/images/wb-longuet-1200.webp" srcset="/assets/images/wb-longuet-480.webp 480w, /assets/images/wb-longuet-800.webp 800w, /assets/images/wb-longuet-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 25vw" alt="Site Maison Longuet, crêpes et pâtisserie, sur ordinateur et téléphone" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+          <span class="metier-nom">Sites web</span>
+          <strong class="metier-titre">Profitez-en pour faire du lèche-vitrine</strong>
+          <span class="metier-texte">Sites vitrines de biscuiteries, de pâtisseries, d&#39;instituts et de créateurs.</span>
+          <span class="metier-fleche" aria-hidden="true">→</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<section class="etapes bande-blanche" id="etapes">
+  <div class="conteneur etapes-grille">
+    <div class="etapes-texte">
+      <p class="surtitre" data-anime>Ce que Thierry prend en charge</p>
+  <h2 class="titre " data-anime="lignes">Du logo <em class="mot">au linéaire</em></h2>
+      <p class="masque-ecran-bas" data-anime>Six étapes, toutes tirées de ses réalisations publiées.</p>
+      <div class="etapes-liste-cadre"><span class="etapes-fil" aria-hidden="true"><span data-effet="etapes"></span></span>
+      <ol class="etapes-liste">
+        <li class="etape" data-etape="0" data-anime><span class="etape-num">01</span><div><h3>La marque</h3><p>Nom en lettres, logo et couleurs : Maison Erté, Day Fruits, Diosa.</p></div></li><li class="etape" data-etape="1" data-anime><span class="etape-num">02</span><div><h3>La gamme</h3><p>Un packaging par parfum ou par format : Erté en 250 et 300 g, saumon fumé en quatre formats.</p></div></li><li class="etape" data-etape="2" data-anime><span class="etape-num">03</span><div><h3>Le mockup et l&#39;ambiance</h3><p>Rendus en 3D et mises en ambiance pour présenter le produit : Rochers Coco, Cookie Dough.</p></div></li><li class="etape" data-etape="3" data-anime><span class="etape-num">04</span><div><h3>L&#39;exécution</h3><p>Maquette et exécution de toute une gamme, fichiers prêts pour l&#39;imprimeur.</p></div></li><li class="etape" data-etape="4" data-anime><span class="etape-num">05</span><div><h3>La PLV et le stand</h3><p>Kakémonos, présentoirs de comptoir, stands de dégustation : Erté, Plaisir, Veinavital.</p></div></li><li class="etape" data-etape="5" data-anime><span class="etape-num">06</span><div><h3>Et la suite</h3><p>Annonces presse, plaquettes, menus et site web, pour faire vivre la marque.</p></div></li>
+      </ol></div>
+    </div>
+    <div class="etapes-visuel" aria-hidden="true">
+      <div class="etapes-cadre"><figure class="media etapes-media actif" style="--cadrage:49% 42%">
+  <picture>
+    <img src="/assets/images/lg-erte-800.webp" srcset="/assets/images/lg-erte-480.webp 480w, /assets/images/lg-erte-800.webp 800w" sizes="(max-width: 760px) 90vw, 40vw" alt="Logo Maison Erté" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media etapes-media" style="--cadrage:49% 40%">
+  <picture>
+    <img src="/assets/images/pk-erte-sachets-1200.webp" srcset="/assets/images/pk-erte-sachets-480.webp 480w, /assets/images/pk-erte-sachets-800.webp 800w, /assets/images/pk-erte-sachets-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" alt="Gamme de sachets Maison Erté" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media etapes-media" style="--cadrage:56% 52%">
+  <picture>
+    <img src="/assets/images/pk-cookie-1200.webp" srcset="/assets/images/pk-cookie-480.webp 480w, /assets/images/pk-cookie-800.webp 800w, /assets/images/pk-cookie-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" alt="Mise en ambiance du Cookie Dough Tiliz" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media etapes-media" style="--cadrage:49% 53%">
+  <picture>
+    <img src="/assets/images/pk-togolais-1200.webp" srcset="/assets/images/pk-togolais-480.webp 480w, /assets/images/pk-togolais-800.webp 800w, /assets/images/pk-togolais-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" alt="Gamme Togolais déclinée en quatre parfums" width="1200" height="600" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media etapes-media" style="--cadrage:23% 28%">
+  <picture>
+    <img src="/assets/images/pk-veinavital-1200.webp" srcset="/assets/images/pk-veinavital-480.webp 480w, /assets/images/pk-veinavital-800.webp 800w, /assets/images/pk-veinavital-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" alt="Présentoir de comptoir Veinavital" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure><figure class="media etapes-media" style="--cadrage:51% 47%">
+  <picture>
+    <img src="/assets/images/wb-erte-1200.webp" srcset="/assets/images/wb-erte-480.webp 480w, /assets/images/wb-erte-800.webp 800w, /assets/images/wb-erte-1200.webp 1200w" sizes="(max-width: 760px) 90vw, 40vw" alt="Site de la biscuiterie Erté" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure></div>
+    </div>
+  </div>
+</section>
+<section class="logos bande-encre" id="logos">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <div><p class="surtitre" data-anime>Logos</p>
+  <h2 class="titre " data-anime="lignes">À vos marques… prêts ? <em class="mot">Partez !</em></h2></div>
+      <div><p data-anime>Biscuiterie, institut de beauté, barbier, camp dans le désert : chaque logo part de ce que fait la marque.</p><a href="/logos-sites" class="bouton bouton--clair" data-libelle="Logos &amp; sites">Logos et sites</a></div>
+    </div>
+    <ul class="mur-logos" data-anime="cascade">
+      <li class="logo-tuile"><figure class="media logo-media" style="--cadrage:49% 42%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-erte-800.webp" srcset="/assets/images/lg-erte-480.webp 480w, /assets/images/lg-erte-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo Maison Erté, biscuitiers de père en fils depuis 1888" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:50% 51%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-dayfruits-800.webp" srcset="/assets/images/lg-dayfruits-480.webp 480w, /assets/images/lg-dayfruits-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo Day Fruits « C’est mon fruit croustillant »" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:45% 46%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-najat-800.webp" srcset="/assets/images/lg-najat-480.webp 480w, /assets/images/lg-najat-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo NB Najat Bary by Marrakech, monogramme doré, portrait de femme" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:34% 40%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-pauline-800.webp" srcset="/assets/images/lg-pauline-480.webp 480w, /assets/images/lg-pauline-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo La Vitrine de Pauline, colibri et écriture violette" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:50% 44%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-togolais-800.webp" srcset="/assets/images/lg-togolais-480.webp 480w, /assets/images/lg-togolais-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logos Biscuiterie Enougan Bio et Mini Biscuits Togolais" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:48% 41%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-celina-800.webp" srcset="/assets/images/lg-celina-480.webp 480w, /assets/images/lg-celina-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Identité Celina Paris : vase et coussin aux motifs berbères" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:47% 44%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-emma-800.webp" srcset="/assets/images/lg-emma-480.webp 480w, /assets/images/lg-emma-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo Beauty Emma, prothésiste ongulaire, flacon de vernis et main" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li><li class="logo-tuile"><figure class="media logo-media" style="--cadrage:48% 42%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/lg-action-800.webp" srcset="/assets/images/lg-action-480.webp 480w, /assets/images/lg-action-800.webp 800w" sizes="(max-width: 760px) 45vw, 22vw" alt="Logo Action dans le monde, globe noir et jaune" width="800" height="533" loading="lazy" decoding="async">
+  </picture>
+</figure></li>
+    </ul>
+  </div>
+</section>
+<section class="avis" id="avis">
+  <div class="conteneur">
+    <div class="tete-section"><p class="surtitre" data-anime>Ils en parlent</p>
+  <h2 class="titre " data-anime="lignes">Ce qu&#39;en disent <em class="mot">ses clients</em></h2></div>
+    <ul class="avis-grille" data-anime="cascade">
+      <li class="avis-carte"><blockquote><p>« C’est un réel plaisir de travailler avec lui. »</p></blockquote><p class="avis-qui"><strong>Tristan</strong>, TC entreprise<br><span>Packagings d’une marque en lancement · février 2025</span></p></li><li class="avis-carte"><blockquote><p>« Un excellent travail de qualité, livré dans les meilleurs délais. »</p></blockquote><p class="avis-qui"><strong>Nadia</strong>, My Executive Assistant<br><span>Graphisme et imprimerie · novembre 2023</span></p></li><li class="avis-carte"><blockquote><p>« Particulièrement pour les commerçants qui cherchent à mettre en valeur leurs produits en rayon. »</p></blockquote><p class="avis-qui"><strong>Mahamadou</strong>, FruitsTropicaux<br><span>Logo, packaging et présentation produit · novembre 2023</span></p></li><li class="avis-carte"><blockquote><p>« Au top, belle imagination et patience… rapidité d’exécution également ! »</p></blockquote><p class="avis-qui"><strong>Diane</strong>, Particulier<br><span>Logo, carte de menu et communication · novembre 2023</span></p></li>
+    </ul>
+    <p class="avis-source" data-anime><a href="https://graphiste.com/thierrycreativekeys" target="_blank" rel="noopener">Avis publiés sur Graphiste.com<span class="visuellement-cache"> (nouvel onglet)</span></a></p>
+  </div>
+</section>
+<section class="fin bande-bleue" id="fin">
+  <div class="fin-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel>
+    <p data-fx-rangee>Emballer · Imprimer · Marquer · Mettre en vitrine ·</p>
+    <p data-fx-rangee data-sens="-1">Démarquez-vous · Habillez votre marque ·</p>
+  </div>
+  <div class="conteneur fin-grille">
+    <h2 class="titre" data-anime="lignes">Votre produit mérite <em class="mot">son facing.</em></h2>
+    <div>
+      <p data-anime>Un packaging, une gamme, une affiche ou un logo à créer ? Décrivez votre projet en trois étapes, Thierry vous rappelle.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/contact#devis" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un devis</a>
+        <a class="bouton bouton--contour" href="tel:+33675014560">Appeler 06 75 01 45 60</a>
+      </p>
+    </div>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Visionneuse des réalisations" hidden>
+  <figure class="visionneuse-figure"><figcaption data-visionneuse-titre aria-live="polite"></figcaption></figure>
+  <button type="button" class="visionneuse-bouton visionneuse-prec" data-visionneuse-prec aria-label="Réalisation précédente">←</button>
+  <button type="button" class="visionneuse-bouton visionneuse-suiv" data-visionneuse-suiv aria-label="Réalisation suivante">→</button>
+  <button type="button" class="visionneuse-bouton visionneuse-fermer" data-visionneuse-fermer>Fermer</button>
+</div>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span></p>
+      <p>Graphiste indépendant, packaging, imprimés, logos et sites web.</p>
+      <p>Paris et périphérie<br><a href="tel:+33675014560">06 75 01 45 60</a><br><a href="mailto:t.creativekeys@orange.fr">t.creativekeys@orange.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil" aria-current="page">Accueil</a></li><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/pfscreationdesign/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://twitter.com/PFS_DiamantS" target="_blank" rel="noopener">Twitter<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://graphiste.com/thierrycreativekeys" target="_blank" rel="noopener">Graphiste.com<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire simulé, rien n&#39;est envoyé.</p><p>© Creative Keys</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33675014560">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

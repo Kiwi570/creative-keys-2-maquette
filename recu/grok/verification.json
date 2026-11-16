@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-16T13:46:40.910Z",
+  "plan": "/home/claude/creative-keys-maquette/plan-images.json",
+  "attendus": 4,
+  "recus": 4,
+  "planches": [
+    "planche.jpg"
+  ],
+  "inconnus": [],
+  "manquants": [],
+  "a_regenerer": [
+    {
+      "fichier": "rayon-vide.png",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "consigne_corrigee": "A clean, completely empty supermarket shelf unit seen from the front: five long white metal shelves with nothing on them, only empty price label rails with no labels, soft even light, light grey floor, a gentle touch of humour from the total emptiness, no products, no packaging, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ],
+  "images": [
+    {
+      "nom": "grok/atelier",
+      "attendu": "atelier.png",
+      "fichier": "atelier.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/imprimerie",
+      "attendu": "imprimerie.png",
+      "fichier": "imprimerie.png",
+      "priorite": "Conseillée",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/croquis",
+      "attendu": "croquis.png",
+      "fichier": "croquis.png",
+      "priorite": "Indispensable",
+      "problemes": [],
+      "indications": [],
+      "largeur": 1168,
+      "hauteur": 784,
+      "boites": []
+    },
+    {
+      "nom": "grok/rayon-vide",
+      "attendu": "rayon-vide.png",
+      "fichier": "rayon-vide.png",
+      "priorite": "Indispensable",
+      "problemes": [
+        "ratio 1.78 au lieu de 1168×784"
+      ],
+      "indications": [
+        "mains : 0, doigts reconnus - (indicatif, à regarder)"
+      ],
+      "largeur": 1600,
+      "hauteur": 900,
+      "boites": [],
+      "mains": {
+        "annoncees": true,
+        "vues": 0,
+        "doigts": []
+      },
+      "consigne_corrigee": "A clean, completely empty supermarket shelf unit seen from the front: five long white metal shelves with nothing on them, only empty price label rails with no labels, soft even light, light grey floor, a gentle touch of humour from the total emptiness, no products, no packaging, no people. Wide horizontal composition, aspect ratio 16:9, main subject well inside the central area with generous margins on every side, so the image can be cropped, quiet uncluttered area in the upper half for a title. Editorial commercial photography, calm and precise, bright, crisp and playful studio mood, palette of cool light grey, clean white, deep ink black and a single touch of electric ultramarine blue, soft even daylight from a large window on the left, tactile matte white card stock, folded cardboard, printed proofs and smooth grey surfaces, set in a bright, calm interior on a bright winter morning, shallow depth of field, subtle film grain, calm minimal composition with generous empty space, photorealistic, high detail. No screen with readable content, no chart with numbers, no handshake, no puzzle pieces, no thumbs up, nobody looking at the camera, no client logos, no fake document. Pages completely blank, blank book spines, abstract unreadable marks, plain unmarked surfaces, dials with tick marks only and no numbers. No text, no letters, no numbers, no logos, no brand names, no signage, no watermark, no signature, no recognizable person, no visible face, no real or famous people, not a specific real building or landmark. Generate in landscape format, 1168×784 pixels. only two hands, both belonging to one single person and clearly attached to the same forearms, no other hand anywhere in the frame"
+    }
+  ]
+}

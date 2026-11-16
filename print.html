@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="fr" data-v="1" data-curseur>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Print et PLV : vos marques m&#39;impressionnent · Creative Keys</title>
+<meta name="description" content="Affiches, annonces presse, plaquettes, menus, calendriers, kakémonos et coffrets conçus par Creative Keys.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="canonical" href="https://creative-keys-2-maquette.vercel.app/print">
+<style>:root{--fond:#EDECE8;--texte:#121212;--voile-fond:#121212;--ouverture-fond:#EDECE8;--menu-fond:#EDECE8}:root { --entete-h: 72px; --barres-h: 0px; } html { background: var(--fond); color: var(--texte); scrollbar-gutter: stable; } body { margin: 0; background: var(--fond); } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime] { opacity: 0; } html.js:not(.secours):not([data-arrivee="retour"]) [data-anime].vu { opacity: 1; } [data-voile] { position: fixed; inset: 0; z-index: 900; background: var(--voile-fond); transform: translateY(100%); visibility: hidden; pointer-events: none; } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) [data-voile] { transform: none; visibility: visible; } html.secours [data-voile] { visibility: hidden !important; } .ouverture-panneau { position: fixed; inset: 0; z-index: 850; display: none; place-content: center; justify-items: center; background: var(--ouverture-fond, var(--voile-fond)); color: var(--fond); text-align: center; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) .ouverture-panneau { display: grid; } html.defilement-bloque, html.defilement-bloque body, html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie), html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) body, html[data-arrivee="voile"]:not(.voile-leve):not(.secours), html[data-arrivee="voile"]:not(.voile-leve):not(.secours) body { overflow: hidden; } html.js[data-arrivee="intro"]:not(.secours):not(.intro-finie) { background-color: var(--ouverture-fond, var(--voile-fond)); } html[data-arrivee="voile"]:not(.voile-leve):not(.secours) { background-color: var(--voile-fond); }</style>
+<script>(function () {
+var d = document.documentElement, ss = null, ls = null;
+try { ss = window.sessionStorage; ls = window.localStorage; } catch (e) {}
+d.classList.add('js');
+var nav = performance.getEntriesByType ? performance.getEntriesByType('navigation')[0] : null;
+var type = nav ? nav.type : 'navigate';
+var depart = null;
+try { depart = JSON.parse(ss.getItem('socle:depart') || 'null'); ss.removeItem('socle:depart'); } catch (e) {}
+if (depart && !(Date.now() - depart.t < 15000)) depart = null;
+var mode = type === 'back_forward' ? 'retour' : type === 'reload' ? 'intro' : depart ? 'voile' : 'intro';
+d.setAttribute('data-arrivee', mode);
+if (mode === 'voile' && depart.couleur) d.style.setProperty('--voile-fond', depart.couleur);
+if (type === 'reload' && 'scrollRestoration' in history) {
+history.scrollRestoration = 'manual';
+}
+try {
+var choisie = ls && ls.getItem('socle:langue');
+var langue = (d.lang || '').slice(0, 2);
+if (choisie && choisie !== langue && type === 'navigate' && !depart) {
+var alt = document.querySelector('link[rel="alternate"][hreflang="' + choisie + '"]');
+if (alt) location.replace(new URL(alt.href).pathname + location.search + location.hash);
+}
+} catch (e) {}
+setTimeout(function () { if (!d.classList.contains('demarre')) d.classList.add('secours'); }, 2000);
+})();</script>
+<link rel="preload" href="/assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/css/socle.css?v=1">
+<link rel="stylesheet" href="/assets/css/site.css?v=1">
+<link rel="modulepreload" href="/assets/js/site.js?v=1">
+<link rel="modulepreload" href="/assets/js/socle/index.js?v=1">
+<script src="/assets/vendor/gsap.min.js" defer></script>
+<script src="/assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="/assets/vendor/SplitText.min.js" defer></script>
+<script type="module" src="/assets/js/site.js?v=1"></script>
+<meta name="theme-color" content="#EDECE8">
+<link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Creative Keys">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Print et PLV : vos marques m&#39;impressionnent · Creative Keys">
+<meta property="og:description" content="Affiches, annonces presse, plaquettes, menus, calendriers, kakémonos et coffrets conçus par Creative Keys.">
+<meta property="og:url" content="https://creative-keys-2-maquette.vercel.app/print">
+<meta property="og:image" content="https://creative-keys-2-maquette.vercel.app/assets/partage/print-fr.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Affiche des madeleines Maison Erté conçue par Creative Keys">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfessionalService","name":"Creative Keys","url":"https://creative-keys-2-maquette.vercel.app/","telephone":"+33675014560","email":"t.creativekeys@orange.fr","founder":{"@type":"Person","name":"Thierry Poincet","jobTitle":"Graphiste"},"areaServed":"Paris et périphérie","knowsAbout":["Packaging","Création de marque","Logo","PLV","Plaquettes et affiches","Sites web"],"sameAs":["https://www.instagram.com/pfscreationdesign/","https://twitter.com/PFS_DiamantS","https://graphiste.com/thierrycreativekeys"],"description":"Graphiste indépendant : packaging, création de marque, PLV, imprimés et sites web, 30 ans d'expérience."}</script>
+</head>
+<body id="haut">
+<div data-voile data-forme="rideau" aria-hidden="true"><div class="voile-contenu"><span class="voile-marque">Creative Keys</span><span data-voile-libelle>Print &amp; PLV</span></div></div>
+<div class="ouverture-panneau" data-ouverture aria-hidden="true">
+  <div class="intro-rayons"><div class="intro-etagere" style="--i:0"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-larzac-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-erte-sachets-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-togolais-480.webp" alt="" width="480" height="240" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-confitures-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:1"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-dayfruits-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-macaron-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-trou"></span><span class="intro-facing"><img src="/assets/images/pk-tablettes-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-diosa-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div><div class="intro-etagere" style="--i:2"><div class="intro-rang"><span class="intro-facing"><img src="/assets/images/pk-brownies-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-saumon-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-cookie-480.webp" alt="" width="480" height="320" decoding="async"></span><span class="intro-facing"><img src="/assets/images/pk-tortillas-480.webp" alt="" width="480" height="320" decoding="async"></span></div><span class="intro-trait"></span></div></div>
+  <p class="ouverture-nom">Creative Keys</p>
+  <p class="ouverture-ligne">Packaging · Print · Logos · Web</p>
+  <img class="ouverture-objet" src="/assets/images/pk-chocolat60-detoure-480.webp" alt="" width="480" height="333" decoding="async" data-ouverture-objet>
+</div>
+<a class="evitement" href="#contenu">Aller au contenu</a>
+<header data-entete>
+  <div class="entete-rangee">
+    <a class="entete-logo" href="/" data-libelle="Accueil">
+      <span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span>
+    </a>
+    <nav data-nav aria-label="Navigation principale">
+      <ul><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV" aria-current="page">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div class="entete-actions">
+      <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+      <button type="button" data-menu-bouton aria-controls="menu" aria-expanded="false" data-libelle-ouvrir="Menu" data-libelle-fermer="Fermer"><span data-libelle-bouton>Menu</span></button>
+      <a class="menu-sansjs" href="#menu" data-menu-lien>Menu</a>
+    </div>
+  </div>
+</header>
+<script>/* Avant le premier affichage : rangées de la navigation (même règle que ajusterNav dans assets/js/socle/entete.js)
+   et hauteur réelle de l'en-tête, pour que rien ne saute quand le JavaScript du site prend la main. */
+(function () {
+  var h = document.documentElement, u = document.querySelector('[data-nav] ul'), e = document.querySelector('[data-entete]');
+  if (u) {
+    var deborde = function () { return u.scrollWidth > u.clientWidth + 1; }, c = deborde();
+    if (c && window.matchMedia('(min-width: 900px)').matches) {
+      h.classList.add('nav-deux-rangees'); c = deborde();
+      if (c) { h.classList.add('nav-deux-lignes'); var a = u.querySelector('a'); c = !a || u.getBoundingClientRect().height > a.getBoundingClientRect().height * 2.5; }
+      if (c) h.classList.remove('nav-deux-rangees', 'nav-deux-lignes');
+    }
+    if (c) h.classList.add('nav-compacte');
+  }
+  if (e) h.style.setProperty('--entete-h', Math.round(e.getBoundingClientRect().height) + 'px');
+})();</script>
+<span id="menu-ferme" aria-hidden="true"></span>
+<div id="menu" data-menu role="dialog" aria-modal="true" aria-label="Menu">
+  <p class="menu-sansjs-fermer"><a href="#menu-ferme">Fermer</a></p>
+  <ul><li style="--i:0"><a href="/" class="menu-lien" data-libelle="Accueil">Accueil</a></li><li style="--i:1"><a href="/packaging" class="menu-lien" data-libelle="Packaging">Packaging</a></li><li style="--i:2"><a href="/print" class="menu-lien" data-libelle="Print &amp; PLV" aria-current="page">Print &amp; PLV</a></li><li style="--i:3"><a href="/logos-sites" class="menu-lien" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li style="--i:4"><a href="/contact" class="menu-lien" data-libelle="Contact">Contact</a></li></ul>
+  <p><a class="bouton" href="tel:+33675014560">Appeler 06 75 01 45 60</a></p>
+</div>
+<main id="contenu" tabindex="-1">
+<section class="ouv-print" id="debut">
+  <div class="conteneur ouv-print-grille">
+    <div class="ouv-print-texte">
+      <p class="surtitre" data-anime="gsap">Print &amp; PLV · 19 réalisations</p>
+      <h1 class="titre titre--page" data-anime="gsap"><span class="ligne-masque"><span class="ouv-ligne">Vos marques</span></span> <span class="ligne-masque"><em class="mot ouv-ligne">m&#39;impressionnent</em></span></h1>
+      <p class="masque-ecran-bas" data-anime="gsap">Affiches et annonces presse, plaquettes, menus, calendriers, kakémonos et coffrets : tout ce qui s&#39;imprime autour d&#39;une marque.</p>
+      <p class="ouv-actions" data-anime="gsap"><a href="/contact?projet=print#devis" class="bouton" data-libelle="Contact" data-action-principale data-survol="magnetique">Demander un devis print</a></p>
+      <p class="ouv-info" data-info-cle data-anime="gsap">Du dépliant 4 pages au stand de dégustation</p>
+    </div>
+    <div class="kakemono">
+      <figure class="media kakemono-arriere" style="--cadrage:30% 38%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-lor-sublime-1200.webp" srcset="/assets/images/pr-lor-sublime-480.webp 480w, /assets/images/pr-lor-sublime-800.webp 800w, /assets/images/pr-lor-sublime-1200.webp 1200w" sizes="(max-width: 760px) 60vw, 26vw" alt="Affiches L’Or « Goûtez au sublime » et « Puissant et rond », noir et or" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+      <div class="kakemono-tige" aria-hidden="true"></div>
+      <figure class="media kakemono-affiche" data-iris-centre data-effet="kakemono" style="--cadrage:49% 37%;aspect-ratio:4 / 5">
+  <picture>
+    <img src="/assets/images/pr-madeleines-1200.webp" srcset="/assets/images/pr-madeleines-480.webp 480w, /assets/images/pr-madeleines-800.webp 800w, /assets/images/pr-madeleines-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 30vw" alt="Affiche Maison Erté : « La plus délicieuse des madeleines… c’est elle ! »" width="1200" height="1500" fetchpriority="high" loading="eager" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="cat-print " id="affiches">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <h2 class="titre" data-anime="lignes"><span class="titre-num">01</span> Affiches et presse</h2>
+      <p data-anime>Des affiches qui donnent envie, des annonces qui se découpent.</p>
+    </div>
+    <div class="grille-real grille-real--affiches" data-anime="cascade">
+      <article class="carte-real " id="r-lor-sublime" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:30% 38%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-lor-sublime-1200.webp" srcset="/assets/images/pr-lor-sublime-480.webp 480w, /assets/images/pr-lor-sublime-800.webp 800w, /assets/images/pr-lor-sublime-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Affiches L’Or « Goûtez au sublime » et « Puissant et rond », noir et or" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>L’Or</strong> <span>Affiches</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="lor-sublime" data-grand="/assets/images/pr-lor-sublime-1200.webp" data-alt="Affiches L’Or « Goûtez au sublime » et « Puissant et rond », noir et or" data-titre="L’Or · Affiches" aria-label="Voir en grand : L’Or, Affiches"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-madeleines" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:49% 37%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-madeleines-1200.webp" srcset="/assets/images/pr-madeleines-480.webp 480w, /assets/images/pr-madeleines-800.webp 800w, /assets/images/pr-madeleines-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Affiche Maison Erté : « La plus délicieuse des madeleines… c’est elle ! »" width="1200" height="1500" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Erté</strong> <span>Affiche madeleines</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="madeleines" data-grand="/assets/images/pr-madeleines-1200.webp" data-alt="Affiche Maison Erté : « La plus délicieuse des madeleines… c’est elle ! »" data-titre="Maison Erté · Affiche madeleines" aria-label="Voir en grand : Maison Erté, Affiche madeleines"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-mystic" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:4% 53%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-mystic-1200.webp" srcset="/assets/images/pr-mystic-480.webp 480w, /assets/images/pr-mystic-800.webp 800w, /assets/images/pr-mystic-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Affiche Mystic Spear : flèches et arc sur fond noir, lettrage or et rouge" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Mystic Spear</strong> <span>Affiche</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="mystic" data-grand="/assets/images/pr-mystic-1200.webp" data-alt="Affiche Mystic Spear : flèches et arc sur fond noir, lettrage or et rouge" data-titre="Mystic Spear · Affiche" aria-label="Voir en grand : Mystic Spear, Affiche"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-aysh" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:59% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-aysh-1200.webp" srcset="/assets/images/pr-aysh-480.webp 480w, /assets/images/pr-aysh-800.webp 800w, /assets/images/pr-aysh-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Visuels Aysh Glamm, maquilleuse : portraits maquillés et palette noire" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Aysh Glamm</strong> <span>Visuels de maquilleuse</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="aysh" data-grand="/assets/images/pr-aysh-1200.webp" data-alt="Visuels Aysh Glamm, maquilleuse : portraits maquillés et palette noire" data-titre="Aysh Glamm · Visuels de maquilleuse" aria-label="Voir en grand : Aysh Glamm, Visuels de maquilleuse"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-lor-coupons" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:28% 31%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-lor-coupons-1200.webp" srcset="/assets/images/pr-lor-coupons-480.webp 480w, /assets/images/pr-lor-coupons-800.webp 800w, /assets/images/pr-lor-coupons-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Annonces et bons de réduction L’Or, noir et or" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>L’Or</strong> <span>Annonces et bons</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="lor-coupons" data-grand="/assets/images/pr-lor-coupons-1200.webp" data-alt="Annonces et bons de réduction L’Or, noir et or" data-titre="L’Or · Annonces et bons" aria-label="Voir en grand : L’Or, Annonces et bons"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-lor-bio" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:47% 38%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-lor-bio-1200.webp" srcset="/assets/images/pr-lor-bio-480.webp 480w, /assets/images/pr-lor-bio-800.webp 800w, /assets/images/pr-lor-bio-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Annonces et bons L’Or Bio et dosettes, vert et noir" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>L’Or Bio</strong> <span>Annonces et bons</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="lor-bio" data-grand="/assets/images/pr-lor-bio-1200.webp" data-alt="Annonces et bons L’Or Bio et dosettes, vert et noir" data-titre="L’Or Bio · Annonces et bons" aria-label="Voir en grand : L’Or Bio, Annonces et bons"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-xlwines" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:45% 32%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-xlwines-1200.webp" srcset="/assets/images/pr-xlwines-480.webp 480w, /assets/images/pr-xlwines-800.webp 800w, /assets/images/pr-xlwines-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Visuel XL Wines : bouteilles en cascade" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>XL Wines</strong> <span>Visuel</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="xlwines" data-grand="/assets/images/pr-xlwines-1200.webp" data-alt="Visuel XL Wines : bouteilles en cascade" data-titre="XL Wines · Visuel" aria-label="Voir en grand : XL Wines, Visuel"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-monblanc" data-univers="affiches">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:47% 49%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-monblanc-1200.webp" srcset="/assets/images/pr-monblanc-480.webp 480w, /assets/images/pr-monblanc-800.webp 800w, /assets/images/pr-monblanc-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Page de recettes gourmandes Mont Blanc, mosaïque de desserts" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Recettes gourmandes</strong> <span>Page de presse</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="monblanc" data-grand="/assets/images/pr-monblanc-1200.webp" data-alt="Page de recettes gourmandes Mont Blanc, mosaïque de desserts" data-titre="Recettes gourmandes · Page de presse" aria-label="Voir en grand : Recettes gourmandes, Page de presse"><span aria-hidden="true">+</span></button>
+</article>
+    </div>
+  </div>
+</section><section class="cat-print bande-blanche" id="plaquettes">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <h2 class="titre" data-anime="lignes"><span class="titre-num">02</span> Plaquettes et dépliants</h2>
+      <p data-anime>Plaquettes, brochures et flyers pour présenter une offre.</p>
+    </div>
+    <div class="grille-real grille-real--plaquettes" data-anime="cascade">
+      <article class="carte-real " id="r-smile" data-univers="plaquettes">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:55% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-smile-1200.webp" srcset="/assets/images/pr-smile-480.webp 480w, /assets/images/pr-smile-800.webp 800w, /assets/images/pr-smile-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Plaquette Smile, recto et verso, bleu et blanc" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Smile</strong> <span>Plaquette</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="smile" data-grand="/assets/images/pr-smile-1200.webp" data-alt="Plaquette Smile, recto et verso, bleu et blanc" data-titre="Smile · Plaquette" aria-label="Voir en grand : Smile, Plaquette"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-executive" data-univers="plaquettes">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:67% 25%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-executive-1200.webp" srcset="/assets/images/pr-executive-480.webp 480w, /assets/images/pr-executive-800.webp 800w, /assets/images/pr-executive-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Plaquette Executive ouverte, pages noires et portraits" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Executive</strong> <span>Plaquette</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="executive" data-grand="/assets/images/pr-executive-1200.webp" data-alt="Plaquette Executive ouverte, pages noires et portraits" data-titre="Executive · Plaquette" aria-label="Voir en grand : Executive, Plaquette"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-novalyo" data-univers="plaquettes">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:71% 19%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-novalyo-1200.webp" srcset="/assets/images/pr-novalyo-480.webp 480w, /assets/images/pr-novalyo-800.webp 800w, /assets/images/pr-novalyo-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Brochure Novalyo ouverte, carte et schémas" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Novalyo</strong> <span>Brochure</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="novalyo" data-grand="/assets/images/pr-novalyo-1200.webp" data-alt="Brochure Novalyo ouverte, carte et schémas" data-titre="Novalyo · Brochure" aria-label="Voir en grand : Novalyo, Brochure"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-enougan" data-univers="plaquettes">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:48% 54%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-enougan-1200.webp" srcset="/assets/images/pr-enougan-480.webp 480w, /assets/images/pr-enougan-800.webp 800w, /assets/images/pr-enougan-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Dépliant de la biscuiterie Enougan Bio, gamme Togolais" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Enougan Bio</strong> <span>Dépliant</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="enougan" data-grand="/assets/images/pr-enougan-1200.webp" data-alt="Dépliant de la biscuiterie Enougan Bio, gamme Togolais" data-titre="Enougan Bio · Dépliant" aria-label="Voir en grand : Enougan Bio, Dépliant"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-estheticenter" data-univers="plaquettes">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:47% 33%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-estheticenter-1200.webp" srcset="/assets/images/pr-estheticenter-480.webp 480w, /assets/images/pr-estheticenter-800.webp 800w, /assets/images/pr-estheticenter-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Flyer Esthéticenter, soins du visage et épilation laser" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Esthéticenter</strong> <span>Flyer</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="estheticenter" data-grand="/assets/images/pr-estheticenter-1200.webp" data-alt="Flyer Esthéticenter, soins du visage et épilation laser" data-titre="Esthéticenter · Flyer" aria-label="Voir en grand : Esthéticenter, Flyer"><span aria-hidden="true">+</span></button>
+</article>
+    </div>
+  </div>
+</section><section class="cat-print bande-encre" id="plv">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <h2 class="titre" data-anime="lignes"><span class="titre-num">03</span> PLV et stands</h2>
+      <p data-anime>Ce qui se voit en magasin : kakémonos, coffrets, présentoirs.</p>
+    </div>
+    <div class="grille-real grille-real--plv" data-anime="cascade">
+      <article class="carte-real " id="r-rollup-erte" data-univers="plv">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:53% 45%;aspect-ratio:3 / 2">
+  <picture><source media="(max-width: 760px) and (orientation: portrait)" srcset="/assets/images/pr-rollup-erte-mobile-640.webp 640w, /assets/images/pr-rollup-erte-mobile-1080.webp 1080w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw">
+    <img src="/assets/images/pr-rollup-erte-1600.webp" srcset="/assets/images/pr-rollup-erte-480.webp 480w, /assets/images/pr-rollup-erte-800.webp 800w, /assets/images/pr-rollup-erte-1200.webp 1200w, /assets/images/pr-rollup-erte-1600.webp 1600w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Kakémono Maison Erté dans l’allée d’un supermarché, clients flous autour" width="1600" height="1066" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison Erté</strong> <span>Kakémono en magasin</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="rollup-erte" data-grand="/assets/images/pr-rollup-erte-1600.webp" data-alt="Kakémono Maison Erté dans l’allée d’un supermarché, clients flous autour" data-titre="Maison Erté · Kakémono en magasin" aria-label="Voir en grand : Maison Erté, Kakémono en magasin"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-rollup-plaisir" data-univers="plv">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:48% 32%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-rollup-plaisir-1200.webp" srcset="/assets/images/pr-rollup-plaisir-480.webp 480w, /assets/images/pr-rollup-plaisir-800.webp 800w, /assets/images/pr-rollup-plaisir-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Kakémono Plaisir, chien et chat, devant un mur au motif de la marque" width="1200" height="900" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Plaisir</strong> <span>Kakémono</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="rollup-plaisir" data-grand="/assets/images/pr-rollup-plaisir-1200.webp" data-alt="Kakémono Plaisir, chien et chat, devant un mur au motif de la marque" data-titre="Plaisir · Kakémono" aria-label="Voir en grand : Plaisir, Kakémono"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-brazil" data-univers="plv">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:32% 53%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-brazil-1200.webp" srcset="/assets/images/pr-brazil-480.webp 480w, /assets/images/pr-brazil-800.webp 800w, /assets/images/pr-brazil-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Coffrets de café Brazil de Maison du Café, rouge et noir" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Maison du Café</strong> <span>Coffrets Brazil</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="brazil" data-grand="/assets/images/pr-brazil-1200.webp" data-alt="Coffrets de café Brazil de Maison du Café, rouge et noir" data-titre="Maison du Café · Coffrets Brazil" aria-label="Voir en grand : Maison du Café, Coffrets Brazil"><span aria-hidden="true">+</span></button>
+</article>
+    </div>
+  </div>
+</section><section class="cat-print " id="editions">
+  <div class="conteneur">
+    <div class="tete-section tete-section--ligne">
+      <h2 class="titre" data-anime="lignes"><span class="titre-num">04</span> Menus et calendriers</h2>
+      <p data-anime>Menus de restaurant et calendriers de l&#39;Avent.</p>
+    </div>
+    <div class="grille-real grille-real--editions" data-anime="cascade">
+      <article class="carte-real " id="r-calendrier-plaisir" data-univers="editions">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:44% 43%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-calendrier-plaisir-1200.webp" srcset="/assets/images/pr-calendrier-plaisir-480.webp 480w, /assets/images/pr-calendrier-plaisir-800.webp 800w, /assets/images/pr-calendrier-plaisir-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Calendrier de l’Avent Les Repas Plaisir, cases illustrées, chiens et chats sous la neige" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Les Repas Plaisir</strong> <span>Calendrier de l’Avent</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="calendrier-plaisir" data-grand="/assets/images/pr-calendrier-plaisir-1200.webp" data-alt="Calendrier de l’Avent Les Repas Plaisir, cases illustrées, chiens et chats sous la neige" data-titre="Les Repas Plaisir · Calendrier de l’Avent" aria-label="Voir en grand : Les Repas Plaisir, Calendrier de l’Avent"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-chalosse" data-univers="editions">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:48% 50%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-chalosse-1200.webp" srcset="/assets/images/pr-chalosse-480.webp 480w, /assets/images/pr-chalosse-800.webp 800w, /assets/images/pr-chalosse-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Menu de La Ferme de Chalosse, couverture brune et pages intérieures" width="1200" height="800" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>La Ferme de Chalosse</strong> <span>Menu de restaurant</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="chalosse" data-grand="/assets/images/pr-chalosse-1200.webp" data-alt="Menu de La Ferme de Chalosse, couverture brune et pages intérieures" data-titre="La Ferme de Chalosse · Menu de restaurant" aria-label="Voir en grand : La Ferme de Chalosse, Menu de restaurant"><span aria-hidden="true">+</span></button>
+</article><article class="carte-real " id="r-sushi" data-univers="editions">
+  <figure class="media carte-real-media" data-fx="zoom" data-fx-force="8" style="--cadrage:49% 58%;aspect-ratio:3 / 2">
+  <picture>
+    <img src="/assets/images/pr-sushi-1200.webp" srcset="/assets/images/pr-sushi-480.webp 480w, /assets/images/pr-sushi-800.webp 800w, /assets/images/pr-sushi-1200.webp 1200w" sizes="(max-width: 760px) 92vw, (max-width: 1100px) 45vw, 30vw" alt="Quatre menus de restaurant de sushis" width="1200" height="639" loading="lazy" decoding="async">
+  </picture>
+</figure>
+  <p class="etiquette"><strong>Restaurant de sushis</strong> <span>Menus</span></p>
+  <button type="button" class="carte-real-ouvrir" data-ouvrir="sushi" data-grand="/assets/images/pr-sushi-1200.webp" data-alt="Quatre menus de restaurant de sushis" data-titre="Restaurant de sushis · Menus" aria-label="Voir en grand : Restaurant de sushis, Menus"><span aria-hidden="true">+</span></button>
+</article>
+    </div>
+  </div>
+</section>
+<section class="bat" id="bat">
+  <div class="conteneur bat-grille">
+    <figure class="media bat-media" data-grok data-anime="rideau" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/grok/imprimerie-1280.webp" srcset="/assets/images/grok/imprimerie-640.webp 640w, /assets/images/grok/imprimerie-1280.webp 1280w, /assets/images/grok/imprimerie-1600.webp 1600w" sizes="(max-width: 760px) 100vw, 55vw" alt="Sortie d’une presse offset : piles de feuilles imprimées de couleurs vives, lumière d’atelier" width="1280" height="854" loading="lazy" decoding="async">
+  </picture><figcaption class="mention-ia">Illustration générée</figcaption>
+</figure>
+    <div class="bat-texte">
+      <p class="surtitre" data-anime>Jusqu&#39;à l&#39;imprimeur</p>
+  <h2 class="titre " data-anime="lignes">Du fichier <em class="mot">à la pile</em></h2>
+      <p data-anime>Maquette, exécution, fichiers prêts à imprimer : Thierry suit le projet jusqu&#39;à la fabrication, comme il le fait pour ses packagings.</p>
+      <figure class="media bat-depliant" data-fx="vitesse" data-fx-force="5" style="--cadrage:50% 50%">
+  <picture>
+    <img src="/assets/images/pr-depliant-detoure-1200.webp" srcset="/assets/images/pr-depliant-detoure-480.webp 480w, /assets/images/pr-depliant-detoure-800.webp 800w, /assets/images/pr-depliant-detoure-1200.webp 1200w" sizes="(max-width: 760px) 70vw, 24vw" alt="Dépliant de restaurant ouvert, photo de plat et carte" width="1200" height="1057" loading="lazy" decoding="async">
+  </picture>
+</figure>
+    </div>
+  </div>
+</section>
+<section class="fin bande-bleue" id="fin">
+  <div class="fin-geants" data-fx="mots-geants" aria-hidden="true" data-ruban data-visuel>
+    <p data-fx-rangee>Emballer · Imprimer · Marquer · Mettre en vitrine ·</p>
+    <p data-fx-rangee data-sens="-1">Démarquez-vous · Habillez votre marque ·</p>
+  </div>
+  <div class="conteneur fin-grille">
+    <h2 class="titre" data-anime="lignes">Une affiche, un menu, <em class="mot">un stand ?</em></h2>
+    <div>
+      <p data-anime>Dites ce qu&#39;il faut imprimer et pour quand.</p>
+      <p class="fin-actions" data-anime>
+        <a href="/contact?projet=print#devis" class="bouton bouton--clair" data-libelle="Contact" data-survol="magnetique">Demander un devis print</a>
+        <a class="bouton bouton--contour" href="tel:+33675014560">Appeler 06 75 01 45 60</a>
+      </p>
+    </div>
+  </div>
+</section>
+<div class="visionneuse" data-visionneuse data-recouvrement role="dialog" aria-modal="true" aria-label="Visionneuse des réalisations" hidden>
+  <figure class="visionneuse-figure"><figcaption data-visionneuse-titre aria-live="polite"></figcaption></figure>
+  <button type="button" class="visionneuse-bouton visionneuse-prec" data-visionneuse-prec aria-label="Réalisation précédente">←</button>
+  <button type="button" class="visionneuse-bouton visionneuse-suiv" data-visionneuse-suiv aria-label="Réalisation suivante">→</button>
+  <button type="button" class="visionneuse-bouton visionneuse-fermer" data-visionneuse-fermer>Fermer</button>
+</div>
+</main>
+<footer class="pied" id="pied">
+  <div class="conteneur pied-grille">
+    <div class="pied-marque">
+      <p class="pied-logo"><span class="logo-marque" aria-hidden="true">CK</span><span class="logo-mot">Creative<span> Keys</span></span></p>
+      <p>Graphiste indépendant, packaging, imprimés, logos et sites web.</p>
+      <p>Paris et périphérie<br><a href="tel:+33675014560">06 75 01 45 60</a><br><a href="mailto:t.creativekeys@orange.fr">t.creativekeys@orange.fr</a></p>
+    </div>
+    <nav aria-label="Le site">
+      <p><strong>Le site</strong></p>
+      <ul><li><a href="/" data-libelle="Accueil">Accueil</a></li><li><a href="/packaging" data-libelle="Packaging">Packaging</a></li><li><a href="/print" data-libelle="Print &amp; PLV" aria-current="page">Print &amp; PLV</a></li><li><a href="/logos-sites" data-libelle="Logos &amp; sites">Logos &amp; sites</a></li><li><a href="/contact" data-libelle="Contact">Contact</a></li></ul>
+    </nav>
+    <div>
+      <p><strong>Suivre</strong></p>
+      <ul>
+        <li><a href="https://www.instagram.com/pfscreationdesign/" target="_blank" rel="noopener">Instagram<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://twitter.com/PFS_DiamantS" target="_blank" rel="noopener">Twitter<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="https://graphiste.com/thierrycreativekeys" target="_blank" rel="noopener">Graphiste.com<span class="visuellement-cache"> (nouvel onglet)</span></a></li>
+        <li><a href="#haut" data-sans-transition>Retour en haut</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="conteneur pied-bas"><p>Mentions légales · Politique de confidentialité : à compléter</p><p>Maquette de démonstration : formulaire simulé, rien n&#39;est envoyé.</p><p>© Creative Keys</p></div>
+</footer>
+<div data-barre-fixe>
+  <a class="bouton bouton--contour" href="tel:+33675014560">Appeler</a>
+  <a class="bouton" href="/contact#devis" data-libelle="Contact">Demander un devis</a>
+</div>
+</body>
+</html>

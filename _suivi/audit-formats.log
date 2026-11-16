@@ -1,0 +1,19 @@
+… mesures
+  18/234
+  43/234
+  72/234
+  97/234
+  125/234
+  149/234
+  168/234
+  196/234
+  215/234
+  fait en 294 s
+… mesures:balayage
+  fait en 47 s
+… ecran
+  fait en 83 s
+
+Échecs : 1 · À regarder : 5 · Non lancé : 0
+Relancer seulement ce qui a échoué : node _audit/audit.mjs --complet --pages=/ --seulement=fichiers,mesures
+Rapport : /home/claude/creative-keys-maquette/_audit/rapport/rapport.md (passe 20261116-155058-complet-partiel)

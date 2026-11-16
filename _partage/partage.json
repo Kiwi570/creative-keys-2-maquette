@@ -1,0 +1,156 @@
+{
+  "avertissements": [],
+  "cartes": [
+    {
+      "page": "accueil",
+      "langue": "fr",
+      "fichier": "assets/partage/accueil-fr.jpg",
+      "gabarit": "droite",
+      "image": "pk-chocolat60-detoure-1200.webp",
+      "poids": 82489,
+      "sujet": {
+        "x": 600,
+        "y": 83,
+        "l": 600,
+        "h": 431
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 165,
+          "l": 480,
+          "h": 280
+        },
+        {
+          "x": 64,
+          "y": 554,
+          "l": 480,
+          "h": 24
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "contact",
+      "langue": "fr",
+      "fichier": "assets/partage/contact-fr.jpg",
+      "gabarit": "droite",
+      "image": "grok/croquis-1280.webp",
+      "poids": 51765,
+      "sujet": {
+        "x": 600,
+        "y": 0,
+        "l": 600,
+        "h": 605
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 140
+        },
+        {
+          "x": 64,
+          "y": 554,
+          "l": 480,
+          "h": 24
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "logos-sites",
+      "langue": "fr",
+      "fichier": "assets/partage/logos-sites-fr.jpg",
+      "gabarit": "droite",
+      "image": "lg-erte-800.webp",
+      "poids": 69233,
+      "sujet": {
+        "x": 621,
+        "y": 28,
+        "l": 559,
+        "h": 427
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 140
+        },
+        {
+          "x": 64,
+          "y": 554,
+          "l": 480,
+          "h": 24
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "packaging",
+      "langue": "fr",
+      "fichier": "assets/partage/packaging-fr.jpg",
+      "gabarit": "droite",
+      "image": "pk-larzac-1200.webp",
+      "poids": 58453,
+      "sujet": {
+        "x": 600,
+        "y": 91,
+        "l": 600,
+        "h": 413
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 140
+        },
+        {
+          "x": 64,
+          "y": 554,
+          "l": 480,
+          "h": 24
+        }
+      ],
+      "recouvrement": 0
+    },
+    {
+      "page": "print",
+      "langue": "fr",
+      "fichier": "assets/partage/print-fr.jpg",
+      "gabarit": "droite",
+      "image": "pr-madeleines-1200.webp",
+      "poids": 88397,
+      "sujet": {
+        "x": 723,
+        "y": 0,
+        "l": 437,
+        "h": 630
+      },
+      "textes": [
+        {
+          "x": 64,
+          "y": 235,
+          "l": 480,
+          "h": 140
+        },
+        {
+          "x": 64,
+          "y": 554,
+          "l": 480,
+          "h": 24
+        },
+        {
+          "x": 600,
+          "y": 0,
+          "l": 90,
+          "h": 630
+        }
+      ],
+      "recouvrement": 0
+    }
+  ]
+}
